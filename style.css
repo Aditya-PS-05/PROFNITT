@@ -1,9 +1,10 @@
 body {
   margin: 0;
+  background: var(--bg, #010725);
 }
 
 #preloader{
-  background: #000 url(images/up.gif) no-repeat center;
+  background: #010725  url(images/up.gif) no-repeat center;
   background-size: 100%;
   height: 100%;
   width: 100%;
