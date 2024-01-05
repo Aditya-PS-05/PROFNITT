@@ -17,8 +17,8 @@ const Navbar = () => {
             <div>RESOUCRES</div>
             <div className=''>CONTACT US</div>
           </div>
-          <div className='w-[30%] flex justify-center items-center h-full'>
-            <button className='cursor-pointer h-[60%] w-[60%] border-none rounded-[15%] bg-[#0328EE] hover:bg-white hover:text-black'>Consultancy</button>
+          <div className='w-[22%] flex justify-center items-center h-full'>
+            <button className='cursor-pointer h-[60%] w-[60%] border-none rounded-[5%] bg-[#0328EE] hover:bg-white hover:text-black'>Consultancy</button>
           </div>
         </div>
         <div className="mobile-navbar-btn">
