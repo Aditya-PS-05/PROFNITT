@@ -4,7 +4,7 @@ const Main = () => {
             <div className='text-white h-full w-[50%] flex justify-center items-center'>
                 <div className='h-[60%] w-[55%] mt-'>
                     <h1 className='text-[90px] ml-[-5px]'>ProfNITT</h1>
-                    <p className='text-3xl mt-[-20px]'>Finance and Investments club of NIT Trichy</p>
+                    <p className='text-3xl mt-[-20px]'>The Finance and Investments club of NIT Trichy</p>
                     <div className='flex h-[15%] w-[80%] mt-5 justify-between'>
                         <button className='cursor-pointer w-[40%] border-none rounded bg-[#0328EE] hover:bg-white hover:text-black'>Download App</button>
                         <button className='cursor-pointer w-[40%] border-none rounded bg-[#0328EE] hover:bg-white hover:text-black'>View Pricing</button>
