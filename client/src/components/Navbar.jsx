@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { CgMenu , CgCloseR } from "react-icons/cg";
 
@@ -23,7 +22,6 @@ const Navbar = () => {
         <div className="mobile-navbar-btn">
           <CgMenu />
           <CgCloseR />
-
         </div>
       </nav>
   )
