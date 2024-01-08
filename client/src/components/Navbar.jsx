@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className='flex justify-center items-center h-132 w-screen bg-010725 text-white'>
       <div className='flex items-center w-full max-w-screen-xl px-0' style={{ paddingTop: '15px', paddingBottom: '15px' }}>
         <div className='text-2xl flex justify-center items-center border-r-2 border-white h-full'>
-          {/* Add content for this div if needed */}
+          
         </div>
         <div className='ml-20' style={{ marginBottom: '10px' }}>
           <img src="/images/logo.png" alt="Logo" className='h-16' /> {/* Adjusted the height to 16px */}
@@ -24,7 +24,7 @@ const Navbar = () => {
         </button>
       </div>
       <div className="mobile-navbar-btn">
-        {/* Add content for mobile navbar button if needed */}
+        
       </div>
     </nav>
   );
