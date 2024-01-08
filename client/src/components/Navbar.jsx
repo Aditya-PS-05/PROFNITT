@@ -16,7 +16,7 @@ const Navbar = () => {
           <div style={{ marginLeft: '40px' }}>MEMBERS</div>
           <div style={{ marginLeft: '40px' }}>BLOGS</div>
           <div style={{ marginLeft: '40px' }}>ARTICLES</div>
-          <div style={{ marginLeft: '40px' }}>RESOURCES</div>
+          {/* <div style={{ marginLeft: '40px' }}>RESOURCES</div> */}
           <div style={{ marginLeft: '40px' }}>CONTACT US</div>
         </div>
         <button style={{ backgroundColor: '#0328EE', borderRadius: '22px', marginLeft: '110px' }} className='cursor-pointer h-10 px-3 rounded text-white hover:bg-white hover:text-0328EE'>
