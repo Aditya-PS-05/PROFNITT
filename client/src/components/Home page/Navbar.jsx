@@ -19,9 +19,11 @@ const Navbar = () => {
           {/* <div style={{ marginLeft: '40px' }}>RESOURCES</div> */}
           <div style={{ marginLeft: '40px' }}>CONTACT US</div>
         </div>
-        <button style={{ backgroundColor: '#0328EE', borderRadius: '22px', marginLeft: '110px' }} className='cursor-pointer h-10 px-3 rounded text-white hover:bg-white hover:text-0328EE'>
-          Consultancy
-        </button>
+        <div className='border-2 border-red-500'>
+          <button style={{ backgroundColor: '#0328EE', borderRadius: '22px', marginLeft: '110px' }} className='cursor-pointer h-10 px-3 rounded text-white hover:bg-white hover:text-0328EE border-2 border-red-500 '>
+            Consultancy
+          </button>
+        </div>
       </div>
       <div className="mobile-navbar-btn">
         
