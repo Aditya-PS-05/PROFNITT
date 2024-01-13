@@ -1,10 +1,18 @@
-import React from 'react';
-import Navbar from "./Navbar";
-
+import Navbar from "./Home page/Navbar";
+import Main from "./Home page/Main";
+import About from "./About";
+import Events from "./Events";
+import Blogs from "./Blogs";
+import Footer from "./Footer";
 const Home = () => {
   return (
-    <div className='bg-[#010725] text-white h-screen w-screen m-0 p-0'>
-      <Navbar />
+    <div className='bg-[#010725] text-white m-0 p-0 h-full '>
+      <Navbar  />
+      <Main />
+      <About />
+      <Events />
+      <Blogs />
+      <Footer />
     </div>
   )
 }
