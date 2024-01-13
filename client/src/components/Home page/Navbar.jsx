@@ -5,10 +5,9 @@ const Navbar = () => {
     <nav className='flex justify-center items-center h-132 w-screen' >
       <div className='flex items-center w-full max-w-screen-xl px-0' style={{ paddingTop: '15px', paddingBottom: '15px' }}>
         <div className='text-2xl flex justify-center items-center border-r-2 border-white h-full'>
-          {/* <div></div> */}
         </div>
         <div className='ml-20' style={{ marginBottom: '10px' }}>
-          <img src="/images/logo.png" alt="Logo" className='h-16' /> {/* Adjusted the height to 16px */}
+          <img src="/images/logo.png" alt="Logo" className='h-16' /> 
         </div>
         <div className='flex items-center space-x-40'>
           <div style={{ marginLeft: '40px' }}>HOME</div>
@@ -16,13 +15,7 @@ const Navbar = () => {
           <div style={{ marginLeft: '40px' }}>MEMBERS</div>
           <div style={{ marginLeft: '40px' }}>BLOGS</div>
           <div style={{ marginLeft: '40px' }}>ARTICLES</div>
-          {/* <div style={{ marginLeft: '40px' }}>RESOURCES</div> */}
           <div style={{ marginLeft: '40px' }}>CONTACT US</div>
-        </div>
-        <div className='border-2 border-red-500'>
-          <button style={{ backgroundColor: '#0328EE', borderRadius: '22px', marginLeft: '110px' }} className='cursor-pointer h-10 px-3 rounded text-white hover:bg-white hover:text-0328EE border-2 border-red-500 '>
-            Consultancy
-          </button>
         </div>
       </div>
       <div className="mobile-navbar-btn">

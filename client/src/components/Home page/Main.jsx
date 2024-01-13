@@ -10,8 +10,7 @@ const Main = () => {
                 <div className='h-[60%] w-[55%]'>
                     <h1 className='text-[90px]'>ProfNITT</h1>
                     <p className='text-2xl mt-[-20px]'>The Finance and Investments club of NIT Trichy</p>
-                    
-                    <p className='text-3xl border-2 border-red-500'>
+                    <p className='text-3xl'>
                         <span className='animation-container'>
                             <span className="content__container__text">We are </span>
                             <ul className="content__container__list ">
@@ -24,7 +23,7 @@ const Main = () => {
                     </p>
                 </div>
             </div>
-            <div className='h-full border-2'>
+            <div className='h-full'>
                 <div className="bg-[url('/images/laptop_body.svg')] h-[90%] ml-[130px] flex bg-no-repeat justify-end bg-right border-none rounded-t-[10px] bg-cover">
                     <div>
                         <img src="/images/laptop_screen.svg" alt="laptop screen" className="w-full h-full" />
