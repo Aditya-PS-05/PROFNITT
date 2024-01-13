@@ -1,3 +1,19 @@
+#abouts{
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 2.4rem;
+  color: #57E2E5;
+  margin: 1.5rem;
+  text-align: center;
+}
+#about-data{
+  font-family: Poppins,sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #FFFCF9;
+    text-align: center;
+    text-align: justify;
+}
 .slider {
     position: relative;
     width: 80%; /* Adjust the width as needed */
@@ -21,4 +37,5 @@
   .next {
     right: 10px;
   }
+
   
