@@ -14,6 +14,7 @@ const About = () => {
         <br />
         <br />
         <p>We also take part in competitions, fintech hackathons and symposiums in addition to conducting workshops and events to further the spirit of learning and growth among all.</p>
+        <br />
     </div>
 </div>
 
