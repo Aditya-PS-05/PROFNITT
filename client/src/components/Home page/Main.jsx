@@ -12,7 +12,7 @@ const Main = () => {
                     <p className='text-2xl mt-[-20px]'>The Finance and Investments club of NIT Trichy</p>
                     <p className='text-3xl'>
                         <span className='animation-container'>
-                            <span className="content__container__text">We are </span>
+                            <span className="content__container__text">We are   </span>
                             <ul className="content__container__list ">
                                 <li className="content__container__list__item">Profit !</li>
                                 <li className="content__container__list__item">Research !</li>
