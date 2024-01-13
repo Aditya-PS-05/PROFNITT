@@ -14,16 +14,6 @@
     padding: 20px;
   }
   
-  button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
   .prev {
     left: 10px;
   }
