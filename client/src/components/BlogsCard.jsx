@@ -1,8 +1,6 @@
-import React from 'react';
-
 const BlogsCard = () => {
     return (
-        <div className='w-[350px] h-[500px] box-content bg-[#010D50] rounded-[40px]'>
+        <div className='h-[500px] md:w-[300px] sm:w-[70%] xs:w-[25%] box-content bg-[#010D50] rounded-[40px] mt-10 border-2 border-red-500'>
             <div className='h-[40%] w-full bg-[#C4C4C4] rounded-t-[40px]'>
 
             </div>

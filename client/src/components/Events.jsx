@@ -6,7 +6,7 @@ const Events = () => {
       <div className='flex '>
         <h1 className='text-[50px] ml-[100px]'>Our Events</h1>
       </div>
-      <div className='flex m-5'>
+      <div className='md:flex m-5'>
         <EventCard />
         <EventCard />
         <EventCard />
