@@ -2,25 +2,23 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-center items-center h-132 w-screen' >
-      <div className='flex items-center w-full min-w-screen-xl px-0' style={{ paddingTop: '15px', paddingBottom: '15px' }}>
-        <div className='text-2xl flex justify-center items-center border-r-2 border-white h-full'>
+    <nav className='flex justify-evenly items-center w-screen font-DMSans'>
+      <div className='flex-1 flex items-center justify-evenly h-full'>
+          <div className='w-[20%]'>
+            <img src="/images/logo.png" alt="Logo" className='' />
+          </div>
+          <div className='flex items-center justify-evenly h-full p-4 border-l-2 border-[#0328EE] w-[70%]'>
+            <div>HOME</div>
+            <div>EVENTS</div>
+            <div>MEMBERS</div>
+            <div>BLOGS</div>
+            <div>ARTICLES</div>
+            <div>CONTACT US</div>
+          </div>
         </div>
-        <div className='ml-20' style={{ marginBottom: '10px' }}>
-          <img src="/images/logo.png" alt="Logo" className='h-16' /> 
+        <div className='h-full p-4 w-[20vw] flex justify-center items-center'>
+          <button className='h-[70px] w-[60%] rounded-[10px] bg-[#0328EE] text-white'>COMING SOON</button>
         </div>
-        <div className='flex items-center space-x-40'>
-          <div style={{ marginLeft: '40px' }}>HOME</div>
-          <div style={{ marginLeft: '40px' }}>EVENTS</div>
-          <div style={{ marginLeft: '40px' }}>MEMBERS</div>
-          <div style={{ marginLeft: '40px' }}>BLOGS</div>
-          <div style={{ marginLeft: '40px' }}>ARTICLES</div>
-          <div style={{ marginLeft: '40px' }}>CONTACT US</div>
-        </div>
-      </div>
-      <div className="mobile-navbar-btn">
-        
-      </div>
     </nav>
   );
 }

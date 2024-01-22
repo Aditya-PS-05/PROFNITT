@@ -73,6 +73,8 @@ module.exports = {
       },
       fontFamily:{
         DMSans: "DM Sans",
+        clashDisplay: "ClashDisplay-Bold",
+        PPSupplyMono: "PPSupplyMono-Ultralight",
       }
     },
   },

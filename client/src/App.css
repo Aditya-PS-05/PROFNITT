@@ -29,3 +29,13 @@
     transition: opacity 0.5s ease-in-out; /* Smooth transition */
   }
   
+
+@font-face {
+  font-family: ClashDisplay-Bold;
+  src: url("/fonts/ClashDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: PPSupplyMono-Ultralight;
+  src: url("/fonts/PPSupplyMono-Ultralight.otf");
+}
