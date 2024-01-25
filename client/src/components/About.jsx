@@ -3,9 +3,14 @@ import Iphone from "./Iphone";
 
 const About = () => {
   return (
+    
     <div className='flex flex-col border-2 border-red-500 w-full'>
+      <br />
+      <br />
+      <br />
       <div className='flex items-center justify-center w-full'>
         <div className='p-6 m-10 text-xl border-2 border-slate-500 md:w-[800px] sm:w-[90%] text-center rounded-[10px]'>
+         
           <h1 className="font-clashDisplay text-5xl font-bold">Abouts</h1>
           <div className="mt-6 font-PPSupplyMono font-thin">
             <p>ProfNITT is the official Finance and Investment club of NIT Trichy. We are a close-knit community of finance enthusiasts from diverse backgrounds who take an interest in finance, stock market, options, and quants to spread the elegance of finance among the student community of NIT Trichy.</p>
