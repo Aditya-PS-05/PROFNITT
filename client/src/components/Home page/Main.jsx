@@ -19,7 +19,7 @@ const Main = () => {
     }, []);
 
     return (
-        <main className='mt-10 md:flex justify-between items-center border-2 border-red-500 relative'>
+        <main className='mt-10 md:flex justify-between items-center border-2 border-red-500 relative z-[1000]'>
             <div className='text-white h-full md:w-[50%] sm:w-full flex justify-center items-center border-2 border-green-500'>
                 <div className='h-[60%] w-[55%] border-2 border-red-500'>
                     <h1 className='text-[90px] font-clashDisplay'>ProfNITT</h1>
@@ -37,18 +37,18 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <div className='h-full border-2 border-red-500 w-full sm:mt-10 md:w-[48%]'>
-                <div className="bg-[url('/images/laptop_body.svg')] h-[90%] ml-[130px] flex bg-no-repeat justify-end bg-right border-none rounded-t-[10px] bg-cover">
-                    <div>
-                        <img src="/images/3 (1).jpg" alt="laptop screen" className="w-full h-full" id='laptop-screen'/>
-                        <div className='h-[380px] w-[380px] border-0 rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-0 right-[40%]'>
+            <div className='h-full border-2 border-red-500 w-full sm:mt-10 md:w-[48%] relative'>
+                <div className="bg-[url('/images/laptop_body.svg')] h-[90%] ml-[130px] flex bg-no-repeat justify-end bg-right border-none rounded-t-[10px] bg-cover z-[1000]">
+                    <div className='h-full'>
+                        <div className='h-[380px] w-[380px] border-0 rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] relative bottom-0 right-[40%] z-[10]'>
                         </div>
+                        <img src="/images/3 (1).jpg" alt="laptop screen" className="w-full h-full relative z-[1000]" id='laptop-screen'/>
                     </div>
                 </div>
                 <div>
                     <div>
-                        <img src="/images/BaseBody.svg" alt="Base body" className='ml-10' />
-                        <img src="/images/FootBase.svg" alt="laptop" className='ml-16' />
+                        <img src="/images/BaseBody.svg" alt="Base body" className='ml-10 z-[1000]' />
+                        <img src="/images/FootBase.svg" alt="laptop" className='ml-16 z-[1000]' />
                         <div></div>
                     </div>
                 </div>

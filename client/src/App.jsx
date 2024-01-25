@@ -23,19 +23,19 @@ function App() {
 
   return (
     <div>
-      {/* {loading ? (
+      {loading ? (
         <div className="container" id="spinner">
           <div className="loading"></div>
           <img src="/images/load.gif" alt="Loading..." />
         </div>
-      ) : ( */}
+      ) : (
         <BrowserRouter>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/register" element={<Register />} />
           </Routes>
         </BrowserRouter>
-      {/* )} */}
+       )}
     </div>
   );
 }
