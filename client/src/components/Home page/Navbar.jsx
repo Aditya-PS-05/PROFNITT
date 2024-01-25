@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
     <nav className='flex justify-evenly items-center w-screen font-DMSans border-2 border-red-500'>
       <div className='flex-1 flex items-center justify-evenly h-full'>
-      <div className='w-[10%] ml-4'>
-  <img src="/images/logo.png" alt="Logo" className='logo' style={{ border: 'none' }} />
-</div>
+        <div className='w-[10%] ml-4'>
+          <img src="/images/logo.png" alt="Logo" className='logo' style={{ border: 'none' }} />
+        </div>
 
         <div className='flex items-center justify-evenly h-full p-5 w-[70%]' style={{ fontFamily: 'Poppins, sans-serif' }}>
           <div className="nav-item" style={{ borderLeft: 'none' }}>HOME</div>
