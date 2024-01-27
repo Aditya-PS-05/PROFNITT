@@ -16,9 +16,20 @@ function ConsultancyPOP() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShowModal} style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '0.9rem', borderRadius: '35px' }}>
-        Consultancy
-      </Button>
+     <Button 
+  variant="primary" 
+  onClick={handleShowModal} 
+  style={{ 
+    fontFamily: 'Poppins, sans-serif', 
+    fontWeight: 400, 
+    fontSize: '0.9rem', 
+    borderRadius: '35px', 
+    backgroundColor: '#0328EE', 
+    color: 'white' 
+  }}
+>
+  Consultancy
+</Button>
 
       <Modal show={showModal} onHide={handleCloseModal} centered>
         <Modal.Header closeButton>
@@ -33,8 +44,14 @@ function ConsultancyPOP() {
           </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleCloseModal}>Close</Button>
-        </Modal.Footer>
+  <Button 
+    variant="secondary" 
+    onClick={handleCloseModal} 
+    style={{ backgroundColor: 'pink', color: 'white' }}
+  >
+    Close
+  </Button>
+</Modal.Footer>
       </Modal>
     </>
   );
