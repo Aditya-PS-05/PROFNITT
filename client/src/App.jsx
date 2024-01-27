@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import './App.css'; 
 import Register from './components/Home page/Register';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [loading, setLoading] = useState(true);
