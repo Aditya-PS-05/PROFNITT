@@ -3,8 +3,9 @@ import Iphone from "./Iphone";
 
 const About = () => {
   return (
-    <div className='flex flex-col border-2 border-red-500 w-full'>
-      <div className='flex items-center justify-center w-full'>
+    <div className='flex flex-col border-2 border-red-500 w-full z-[1000] relative'>
+      <div className='h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-[50%] right-[60%] z-0 shadow-2xl shadow-[#010725] blur-[150px] border-2 border-red-500' />
+      <div className='flex items-center justify-center w-full z-[2000000]'>
         <div className='p-6 m-10 text-xl border-2 border-slate-500 md:w-[800px] sm:w-[90%] text-center rounded-[10px]'>
           <h1 className="font-clashDisplay text-5xl font-bold">Abouts</h1>
           <div className="mt-6 font-PPSupplyMono font-thin">
@@ -17,7 +18,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='w-full h-full flex-grow flex justify-evenly items-center mt-10 border-red-500 border-2'>
+      <div className='w-full h-full flex-grow flex justify-evenly items-center mt-10 border-red-500 border-2 z-[2000000]'>
         <Iphone />
         <div className='md:w-[50%] sm:w-[80%] h-full border-2 border-red-500'>
           <h1 className='text-[2.5rem] text-center font-clashDisplay'>Companies we have worked previously: </h1>

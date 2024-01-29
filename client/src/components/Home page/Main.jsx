@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import './Main.css';
 
 const Main = () => {
@@ -20,7 +20,7 @@ const Main = () => {
 
     return (
         <main className='mt-10 md:flex justify-between items-center border-2 border-red-500 relative z-[1000] mb-12'>
-            <div className='h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-[-20%] right-[20%] z-0 shadow-2xl shadow-[#010725] blur-[150px] border-2 border-red-500' />
+            {/* <div className='h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-[-20%] right-[20%] z-0 shadow-2xl shadow-[#010725] blur-[150px] border-2 border-red-500' /> */}
             <div className='text-white h-full md:w-[50%] sm:w-full flex justify-center items-center border-2 border-green-500 z-[2000000]'>
                 <div className='h-[60%] w-[55%] border-2 border-red-500'>
                     <h1 className='text-[90px] font-clashDisplay'>ProfNITT</h1>
