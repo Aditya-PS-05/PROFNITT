@@ -11,6 +11,8 @@ const Navbar = () => {
       height: '100px',
       fontFamily: 'DMSans, sans-serif',
       border: '2px solid red',
+      backgroundImage: 'linear-gradient(#000424 55.25%, #2F3980 100%)',
+      
       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)' // Shadow properties
     }}>
       <div className='flex-1 flex items-center justify-evenly h-full'>
