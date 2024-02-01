@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Iphone = () => {
     return (
         <div className='w-[30%] h-full md:flex justify-center items-center border-2 border-red-500 sm:hidden'>

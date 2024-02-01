@@ -41,7 +41,6 @@ const Main = () => {
             <div className='h-full border-2 border-green-500 w-full sm:mt-10 md:w-[48%] z-[2000000]'>
                 <div className="bg-[url('/images/laptop_body.svg')] h-[90%] ml-[130px] flex bg-no-repeat justify-end bg-right border-none rounded-t-[10px] bg-cover relative z-[1000]">
                     <div className='h-full w-full'>
-
                         <img src="/images/3 (1).jpg" alt="laptop screen" className="w-full h-full border-2 border-red-500" id='laptop-screen' />
                     </div>
                 </div>

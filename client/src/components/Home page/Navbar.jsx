@@ -1,4 +1,5 @@
-import React from 'react';
+// import React from 'react';
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
           <div className='flex items-center justify-evenly h-full p-4 border-l-2 border-[#0328EE] w-[70%]'>
             <div>HOME</div>
             <div>EVENTS</div>
-            <div>MEMBERS</div>
+            <div className="cursor-pointer"><Link to="/members">MEMBERS</Link></div>
             <div>BLOGS</div>
             <div>ARTICLES</div>
             <div>CONTACT US</div>

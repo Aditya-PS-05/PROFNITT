@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import './App.css'; 
 import Register from './components/Home page/Register';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MembersPage from './components/Members/MembersPage';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -34,6 +35,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/register" element={<Register />} />
+            <Route exact path="/members" element={<MembersPage />} />
           </Routes>
         </BrowserRouter>
        )}

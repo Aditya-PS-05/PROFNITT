@@ -1,4 +1,3 @@
-import React from 'react';
 import BlogsCard from './BlogsCard';
 
 const Blogs = () => {

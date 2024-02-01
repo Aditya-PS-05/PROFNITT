@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Aditya",
+        "position": "Junior",
+        "image": "/images/3 (1).jpg",
+        "team": "Quantitative Finance"
+    },
+    {
+        "name": "Riya Gupta",
+        "position": "Senior",
+        "image": "/images/3 (1).jpg",
+        "team": "Fundx"
+    },
+    {
+        "name": "Suryabh Bhattacharya",
+        "position": "Senior",
+        "image": "/images/3 (1).jpg",
+        "team": "Quantitative Finance"
+    }
+]
