@@ -19,7 +19,7 @@ function App() {
           spinner.style.display = 'none';
           setLoading(false);
         }, 500); // Adjust the timeout as needed
-      }, 3300);
+      }, 3000);
     }
   }, []);
 
@@ -28,7 +28,7 @@ function App() {
       {loading ? (
         <div className="container" id="spinner">
           <div className="loading"></div>
-          <img src="/images/load.gif" alt="Loading..." />
+          <img src="/images/logo.gif" alt="Loading..." />
         </div>
       ) : (
         <BrowserRouter>
