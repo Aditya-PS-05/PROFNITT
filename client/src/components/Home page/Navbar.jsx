@@ -10,7 +10,7 @@ const Navbar = () => {
         justifyContent: 'space-between',
         alignItems: 'center',
         width: '100%',
-        height: '100px',
+        height: '95px',
         fontFamily: 'DMSans, sans-serif',
         border: '2px solid red',
         backgroundImage: 'linear-gradient(#000424 55.25%, #2F3980 100%)',
