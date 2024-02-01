@@ -10,6 +10,10 @@ const MembersPage = () => {
       <div className="Navbar">
         <Navbar/>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
         <div className="border-red-500 border-2 m-6 box-content w-screen h-screen flex flex-col">
           <div><h1 className="text-4xl flex justify-center items-center h-[80px] font-clashDisplay">Our Team</h1></div>
           <div className="border-red-500 border-2 flex justify-center items-center gap-[2vw] h-[150px]">
