@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-// import React from 'react';
 import {Link} from "react-router-dom";
-=======
-import React from 'react';
 import ConsultancyPOP from './ConsultancyPOP'; // Adjust the path as per your project structure
->>>>>>> 2cb3e921efe062dbe5d32ef66a52a76fdef28c93
 
 const Navbar = () => {
   return (
@@ -21,7 +16,6 @@ const Navbar = () => {
       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)' // Shadow properties
     }}>
       <div className='flex-1 flex items-center justify-evenly h-full'>
-<<<<<<< HEAD
           <div className='w-[10%]'>
             <img src="/images/logo.png" alt="Logo" className='' />
           </div>
@@ -33,13 +27,7 @@ const Navbar = () => {
             <div>ARTICLES</div>
             <div>CONTACT US</div>
           </div>
-=======
-       
 
-        <div style={{ width: '12%', marginLeft: '120px', marginBottom: '10px', marginRight:'0px' }}>
-          <img src="/images/logo.png" alt="Logo" className='logo' style={{ border: 'none' }} />
->>>>>>> 2cb3e921efe062dbe5d32ef66a52a76fdef28c93
-        </div>
 
         <div className='flex-1 flex items-center justify-evenly h-full p-5 w-[100%]' style={{ fontFamily: 'Poppins, sans-serif', marginTop: '10px', marginLeft :'0px' }}>
           <div className="nav-item" style={{ borderLeft: 'none' }}>HOME</div>
@@ -47,7 +35,7 @@ const Navbar = () => {
           <div className="nav-item" style={{ borderLeft: 'none' }}>PROJECTS</div>
           <div className="nav-item" style={{ borderLeft: 'none' }}>MEMBERS</div>
           <div className="nav-item" style={{ borderLeft: 'none' }}>BLOGS</div>
-          <div className="nav-item" style={{ borderLeft: 'none' }}><a href="https://medium.com/@profnitt.club" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>   ARTICLES  </a></div>
+          <div className="nav-item" style={{ borderLeft: 'none' }}><a href="https://medium.com/@profnitt.club" style={{ textDecoration: 'none', color: 'inherit' }}>ARTICLES</a></div>
           <ConsultancyPOP />
         </div>
       </div>
