@@ -13,7 +13,8 @@ const MembersPage = () => {
             </div>
         </div>
         <div className="w-full border-2 border-green-500 flex justify-center">
-          <div className="border-2 border-blue-500 md:flex sm:block">
+          <div className="border-2 border-blue-500 flex flex-wrap justify-center items-center">
+            <MemberCard />
             <MemberCard />
             <MemberCard />
             <MemberCard />

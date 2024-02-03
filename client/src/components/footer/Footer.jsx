@@ -1,6 +1,5 @@
-import React from 'react';
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faLinkedin, faXTwitter,faGithub,faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faXTwitter,faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
@@ -20,11 +19,11 @@ const Footer = () => {
             </div>
             <div className='font-ppSupplyMono' style={{ color: '#57E2E5', padding: 0, fontSize: '20px', fontFamily: 'Poppins, sans-serif', marginTop: '0px', marginLeft: '-250px' }}>Follow Us</div> {/* Adjusted margin-top */}
             <div className='flex gap-4 mt-3' style={{ marginLeft: '-82px' }}> {/* Adjusted margin-top */}
-    <div><a href="https://github.com/profnitt-club" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faGithub} size="2x" /></a></div>
-    <div><a href="https://www.linkedin.com/company/profnitt/" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></div>
-    <div><a href="https://www.instagram.com/profnitt?igsh=bTd0ZW1oMGQyeHA3" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faInstagram} size="2x" /></a></div>
-    <div><a href="https://www.facebook.com/profnitt?mibextid=ZbWKwL" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faFacebook} size="2x" /></a></div>
-    <div><a href="https://x.com/profnitt?t=qddKAMdy2WCt18bAuiMT3g&s=09" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faXTwitter} size="2x" /></a></div>
+    <div><a href="https://github.com/profnitt-club"  style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faGithub} size="2x" /></a></div>
+    <div><a href="https://www.linkedin.com/company/profnitt/" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></div>
+    <div><a href="https://www.instagram.com/profnitt?igsh=bTd0ZW1oMGQyeHA3" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faInstagram} size="2x" /></a></div>
+    <div><a href="https://www.facebook.com/profnitt?mibextid=ZbWKwL" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faFacebook} size="2x" /></a></div>
+    <div><a href="https://x.com/profnitt?t=qddKAMdy2WCt18bAuiMT3g&s=09" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faXTwitter} size="2x" /></a></div>
 </div>
 
           </div>
@@ -52,9 +51,9 @@ const Footer = () => {
         <div className='text-center mt-6'>
         <h1 className='font-DMSans' style={{ color: '#57E2E5', padding: 0, fontSize: '20px', fontFamily: 'Poppins, sans-serif' }}>
     Designed and Deployed by  
-    <a href="https://www.linkedin.com/in/riya-gupta-rg3010" target="_blank" style={{ textDecoration: 'none', color: '#57E2E5' }}> Riya &</a> 
+    <a href="https://www.linkedin.com/in/riya-gupta-rg3010" style={{ textDecoration: 'none', color: '#57E2E5' }}> Riya &</a> 
       
-    <a href="https://www.linkedin.com/in/aditya-pratap-singh-952a8820a/" target="_blank" style={{ textDecoration: 'none', color: '#57E2E5' }}>  Aditya</a>
+    <a href="https://www.linkedin.com/in/aditya-pratap-singh-952a8820a/" style={{ textDecoration: 'none', color: '#57E2E5' }}>  Aditya</a>
 </h1>
 
         </div>

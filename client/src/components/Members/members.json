@@ -1,20 +1,17 @@
 [
     {
-        "name": "Aditya",
-        "position": "Junior",
-        "image": "/images/3 (1).jpg",
-        "team": "Quantitative Finance"
+        "name": "John Doe",
+        "id": "john-doe",
+        "profession": "Software Engineer"
     },
     {
-        "name": "Riya Gupta",
-        "position": "Senior",
-        "image": "/images/3 (1).jpg",
-        "team": "Fundx"
+        "name": "John Doe",
+        "id": "john-doe",
+        "profession": "Software Engineer"
     },
     {
-        "name": "Suryabh Bhattacharya",
-        "position": "Senior",
-        "image": "/images/3 (1).jpg",
-        "team": "Quantitative Finance"
+        "name": "John Doe",
+        "id": "john-doe",
+        "profession": "Software Engineer"
     }
 ]
