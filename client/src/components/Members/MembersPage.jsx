@@ -1,4 +1,6 @@
 import MemberCard from "./MemberCard";
+import Navbar from '../Home page/Navbar.jsx';
+import Footer from '../footer/Footer.jsx';
 
 const MembersPage = () => {
   return (
@@ -13,8 +15,7 @@ const MembersPage = () => {
             </div>
         </div>
         <div className="w-full border-2 border-green-500 flex justify-center">
-          <div className="border-2 border-blue-500 flex flex-wrap justify-center items-center">
-            <MemberCard />
+          <div className="border-2 border-blue-500 md:flex sm:block">
             <MemberCard />
             <MemberCard />
             <MemberCard />
@@ -22,7 +23,7 @@ const MembersPage = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default MembersPage
+export default MembersPage;

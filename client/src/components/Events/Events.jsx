@@ -11,6 +11,7 @@ const Events = () => {
         <EventCard />
         <EventCard />
         <EventCard />
+       
       </div>
     </div>
   )
