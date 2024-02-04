@@ -7,7 +7,7 @@ const MembersPage = () => {
     <div>
       <div className="bg-[#010725] text-white h-screen border-2 border-red-500">
       <div className="Navbar">
-        <Navbar/>
+        <Navbar/> 
       </div>
         <div className="border-red-500 border-2 m-6 box-content w-screen h-screen flex flex-col" style={{ paddingTop: '80px' }}>
           <div><h1 className="text-4xl flex justify-center items-center h-[80px] font-clashDisplay">Our Team</h1></div>
@@ -24,14 +24,6 @@ const MembersPage = () => {
               <MemberCard />
               <MemberCard />
             </div>
-        </div>
-        <div className="w-full border-2 border-green-500 flex justify-center">
-          <div className="border-2 border-blue-500 flex flex-wrap justify-center items-center">
-            <MemberCard />
-            <MemberCard />
-            <MemberCard />
-            <MemberCard />
-          </div>
         </div>
         <Footer />
       </div>
