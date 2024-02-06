@@ -5,6 +5,7 @@ import './App.css';
 import Register from './components/Home page/Register';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MembersPage from './components/Members/MembersPage';
+import EventsPage from './components/Events/EventsPage';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -36,6 +37,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/register" element={<Register />} />
             <Route exact path="/members" element={<MembersPage />} />
+            <Route exact path="/events" element={<EventsPage />} />
           </Routes>
         </BrowserRouter>
        )}
