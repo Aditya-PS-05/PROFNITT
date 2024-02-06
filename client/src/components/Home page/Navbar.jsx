@@ -15,7 +15,7 @@ const Navbar = () => {
       backgroundImage: 'linear-gradient(#000424 55.25%, #2F3980 100%)',
       
       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)', // Shadow properties
-      zIndex : 99999
+      zIndex : 9999
     }}>
        
       <div className='flex-1 flex items-center justify-evenly h-full'>
