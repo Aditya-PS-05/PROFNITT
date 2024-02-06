@@ -13,34 +13,34 @@ const Footer = () => {
               <img src="/images/logo.png" alt="ProfNITT Logo" className='h-[90px]' style={{ marginTop: '-20px', marginRight: '15px' }} />
               <div>
                 <br />
-                <h1 className='text-[1vmax] font-DMSans font-bold' style={{ padding: 0, fontSize: '20px', fontFamily: 'Poppins, sans-serif' }}>The Finance and</h1>
-                <h1 className='text-[1vmax] font-DMSans font-bold' style={{ padding: 0, fontSize: '20px', fontFamily: 'Poppins, sans-serif' }}>Investment Club</h1>
+                <h1 className='text-[1vmax] font-DMSans font-bold' style={{ padding: 0, color: 'white',fontSize: '20px', fontFamily: 'Poppins, sans-serif' }}>The Finance and</h1>
+                <h1 className='text-[1vmax] font-DMSans font-bold' style={{ padding: 0, color: 'white',fontSize: '20px', fontFamily: 'Poppins, sans-serif' }}>Investment Club</h1>
               </div>
             </div>
             <div className='font-ppSupplyMono' style={{ color: '#57E2E5', padding: 0, fontSize: '20px', fontFamily: 'Poppins, sans-serif', marginTop: '0px', marginLeft: '-250px' }}>Follow Us</div> {/* Adjusted margin-top */}
             <div className='flex gap-4 mt-3' style={{ marginLeft: '-82px' }}> {/* Adjusted margin-top */}
-    <div><a href="https://github.com/profnitt-club"  style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faGithub} size="2x" /></a></div>
-    <div><a href="https://www.linkedin.com/company/profnitt/" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></div>
-    <div><a href="https://www.instagram.com/profnitt?igsh=bTd0ZW1oMGQyeHA3" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faInstagram} size="2x" /></a></div>
-    <div><a href="https://www.facebook.com/profnitt?mibextid=ZbWKwL" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faFacebook} size="2x" /></a></div>
-    <div><a href="https://x.com/profnitt?t=qddKAMdy2WCt18bAuiMT3g&s=09" style={{ color: 'inherit', textDecoration: 'none' }}><FontAwesomeIcon icon={faXTwitter} size="2x" /></a></div>
+    <div><a href="https://github.com/profnitt-club"  style={{ color: 'white', textDecoration: 'none' }}><FontAwesomeIcon icon={faGithub} size="2x" /></a></div>
+    <div><a href="https://www.linkedin.com/company/profnitt/" style={{  color:'white', textDecoration: 'none' }}><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></div>
+    <div><a href="https://www.instagram.com/profnitt?igsh=bTd0ZW1oMGQyeHA3" style={{  color:'white', textDecoration: 'none' }}><FontAwesomeIcon icon={faInstagram} size="2x" /></a></div>
+    <div><a href="https://www.facebook.com/profnitt?mibextid=ZbWKwL" style={{ color: 'white', textDecoration: 'none' }}><FontAwesomeIcon icon={faFacebook} size="2x" /></a></div>
+    <div><a href="https://x.com/profnitt?t=qddKAMdy2WCt18bAuiMT3g&s=09" style={{ color: 'white', textDecoration: 'none' }}><FontAwesomeIcon icon={faXTwitter} size="2x" /></a></div>
 </div>
 
           </div>
           <div className='w-[50%]'>
           <div style={{ marginLeft: '280px' }}>
-    <h1 style={{ padding: 0, fontSize: '35px', fontFamily: 'Poppins, sans-serif' }}> <b>Contact Information</b></h1>
-    <p style={{ display: 'flex', alignItems: 'center', margin: '5px 0' }}> {/* Adjusted margin */}
-        <FontAwesomeIcon icon={faLocationDot} size="1x" style={{ marginRight: '5px' }} />
-        <span style={{ marginLeft: '5px', fontSize: '20px' }}>  NIT Trichy </span>
+    <h1 style={{ padding: 0, fontSize: '35px',color: 'white', fontFamily: 'Poppins, sans-serif' }}> <b>Contact Information</b></h1>
+    <p style={{ display: 'flex', alignItems: 'center',color: 'white', margin: '5px 0' }}> {/* Adjusted margin */}
+        <FontAwesomeIcon icon={faLocationDot} size="1x" style={{ color: 'white',marginRight: '5px' }} />
+        <span style={{ marginLeft: '5px',color: 'white', fontSize: '20px' }}>  NIT Trichy </span>
     </p>
-    <p style={{ display: 'flex', alignItems: 'center', margin: '5px 0' }}> {/* Adjusted margin */}
-        <FontAwesomeIcon icon={faPhone} size="1x" style={{ marginRight: '5px' }} />
-        <span style={{ marginLeft: '5px', fontSize: '20px' }}> +91 8220533117 </span>
+    <p style={{ display: 'flex', alignItems: 'center', color: 'white',margin: '5px 0' }}> {/* Adjusted margin */}
+        <FontAwesomeIcon icon={faPhone} size="1x" style={{ color: 'white',marginRight: '5px' }} />
+        <span style={{ marginLeft: '5px', color: 'white',fontSize: '20px' }}> +91 8220533117 </span>
     </p>
-    <p style={{ display: 'flex', alignItems: 'center', margin: '5px 0' }}> {/* Adjusted margin */}
-        <FontAwesomeIcon icon={faEnvelope} size="1x" style={{ marginRight: '5px' }} />
-        <span style={{ marginLeft: '5px', fontSize: '20px' }}> profnitt.club@gmail.com </span>
+    <p style={{ display: 'flex',color: 'white', alignItems: 'center', margin: '5px 0' }}> {/* Adjusted margin */}
+        <FontAwesomeIcon icon={faEnvelope} size="1x" style={{color: 'white', marginRight: '5px' }} />
+        <span style={{ marginLeft: '5px',color: 'white', fontSize: '20px' }}> profnitt.club@gmail.com </span>
     </p>
 </div>
 

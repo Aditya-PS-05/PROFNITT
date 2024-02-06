@@ -25,13 +25,13 @@ const Navbar = () => {
       
 
         <div className='flex-1 flex items-center justify-evenly h-full p-5 w-[100%]' style={{ fontFamily: 'Poppins, sans-serif', marginTop: '10px', marginLeft :'0px' }}>
-          <div className="nav-item" style={{ borderLeft: 'none' }}>HOME</div>
-          <div className="nav-item" style={{ borderLeft: 'none' }}> <Link to="/events">EVENTS</Link></div>
-          <div className="nav-item" style={{ borderLeft: 'none' }}>PROJECTS</div>
-          <div className="cursor-pointer" style={{ borderLeft: 'none' }}><Link to="/members">MEMBERS</Link></div>
-          <div className="nav-item" style={{ borderLeft: 'none' }}>BLOGS</div>
-          <div className="nav-item" style={{ borderLeft: 'none' }}>
-    <a href="https://medium.com/@profnitt.club" style={{ textDecoration: 'none', color: 'inherit' }}>ARTICLES</a>
+          <div className="nav-item" style={{ borderLeft: 'none', color:'white' }}>HOME</div>
+          <div className="nav-item" style={{ borderLeft: 'none', color:'white' }}> <Link to="/events">EVENTS</Link></div>
+          <div className="nav-item" style={{ borderLeft: 'none', color:'white' , color:'white'}}>PROJECTS</div>
+          <div className="cursor-pointer" style={{ borderLeft: 'none' , color:'white'}}><Link to="/members">MEMBERS</Link></div>
+          <div className="nav-item" style={{ borderLeft: 'none' , color:'white'}}>BLOGS</div>
+          <div className="nav-item" style={{ borderLeft: 'none' , color:'white'}}>
+    <a href="https://medium.com/@profnitt.club" target="blank_" style={{ textDecoration: 'none', color: 'inherit' }}>ARTICLES</a>
 </div>
 
           <ConsultancyPOP />
