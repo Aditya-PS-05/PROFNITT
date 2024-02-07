@@ -36,27 +36,103 @@ const EventsPage = () => {
           </div>
         </div>
       </div>
-      <div className="workshops" style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '2.6rem', color: '#57E2E5', textAlign: 'center', marginBottom: '20px' }}>
+      <div className="workshops" style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '2.6rem', color: '#57E2E5', textAlign: 'center', marginTop: '0px', }}>
         Workshops
-        <div className="boxes-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', marginTop: '25px', flexWrap: 'wrap' }}>
-          <div className="workshop-box" style={{ backgroundColor: '#010725', padding: '20px', margin: '10px', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+        <div className="boxes-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', marginTop: '0px', flexWrap: 'wrap', paddingTop: '0px' }}>
+          <div className="workshop-box" style={{ backgroundColor: '#010725', padding: '20px', paddingTop: '0px',marginTop:'0', margin: '10px', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
             <h3 style={{ color: '#2389f0' }}>Brain Alphathon</h3>
             
-            <img src="/images/Events/worldQuant.png" alt="Workshop 1" style={{ maxWidth: '100%', height: 'auto' }} />
+            <img src="/images/Events/worldQuant.png" alt="Workshop 1" style={{ maxWidth: '80%', marginLeft:'73px',  height: '80%',padding: '20px' }} />
            
             <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>ProfNITT presented the WorldQuant BRAIN Alphathon—a dynamic journey into quantitative finance. The workshop was led by industry experts Yash Zanwar and Aditya Chaturvedi. </p>
           </div>
-          <div className="workshop-box" style={{ backgroundColor: '#010725', padding: '20px', margin: '10px', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
-            <h3 style={{ color: '#2389f0' }}> Money+Money</h3>
+          <div className="workshop-box" style={{ backgroundColor: '#010725', padding: '20px', paddingTop: '0px',marginTop:'0',margin: '10px', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+            <h3 style={{ color: '#2389f0' }}> Big Money</h3>
             
-            <img src="/images/Events/money.jpg" alt="Workshop 2" style={{ maxWidth: '100%', height: 'auto' }} />
+            <img src="/images/Events/money.jpg" alt="Workshop 2" style={{ maxWidth: '76%', marginLeft:'73px', height: '70%',padding: '20px' }} />
             
 
             <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>The workshop titled 'Money+Money=Big Money' was conducted by club members, offering insights into the Indian Stock Market. Participants delved into technical and fundamental analysis, learning to identify ideal stocks for their portfolios. </p>
           </div>
         </div>
       </div>
-      <div className="Competitions"></div>
+      <div className="Competitions"
+      style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '2.6rem', color: '#57E2E5', textAlign: 'center', marginBottom: '20px' }} >
+        Competitions
+        <div className="boxes-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', marginTop: '25px', flexWrap: 'wrap' }} >
+        <div className="competition-box" style={{ backgroundColor: '#010725', padding: '20px',paddingTop: '0px',marginTop:'0', margin: '10px', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+            <h3 style={{ color: '#2389f0' }}>FinHunt!</h3>
+            
+            <img src="/images/Events/finhunt.png" alt="Competition 1" style={{ maxWidth: '100%', height: 'auto', padding: '20px' }} />
+           
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>The event promised an adrenaline rush, requiring participants to don their suits and engage their thinking caps for an exciting and challenging experience. The hunt led participants on an enthralling journey towards a treasure chest filled with exciting prizes. FinHunt was a memorable event that combined finance knowledge with thrill and excitement. </p>
+          </div>
+          <div className="competition-box" style={{ backgroundColor: '#010725', padding: '20px',paddingTop: '0px',marginTop:'0', margin: '10px', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+            <h3 style={{ color: '#2389f0' }}>BizQuiz - MingOut</h3>
+            
+            <img src="/images/Events/mingout.jpeg" alt="Competition 2" style={{ maxWidth: '87%',padding: '20px', marginLeft:'40px', height: 'auto' }} />
+           
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>The Watanabe BizQuiz Fest, powered by Mingout, offered an incredible opportunity for participants to win ₹20,000 directly. Enthusiasts were encouraged to don their suits and thinking hats, immersing themselves in the captivating world of business, personal finance, trading, and the stock market through the quiz. </p>
+          </div>
+          <div className="competition-box" style={{ backgroundColor: '#010725', padding: '20px', paddingTop: '0px',marginTop:'0',margin: '10px', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+            <h3 style={{ color: '#2389f0' }}>IPL-Mania</h3>
+            
+            <img src="/images/Events/ipl.jpg" alt="Competition 3" style={{ maxWidth: '96%',padding: '20px', height: 'auto' }} />
+           
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>The challenge offered an opportunity to test cricket knowledge and strategy while providing a chance to win exciting prizes. Essentially, it was an In-House Dream11, allowing enthusiasts to showcase their cricket expertise in a thrilling and rewarding competition. </p>
+          </div>
+          <div className="competition-box" style={{ backgroundColor: '#010725', padding: '20px', margin: '10px', paddingTop: '11px',marginTop:'0',borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+            <h3 style={{ color: '#2389f0' }}>DecisionQuest </h3>
+            
+            <img src="/images/Events/qst.png" alt="Competition 4" style={{ maxWidth: '100%',padding: '20px', height: 'auto' }} />
+           
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>Participants were challenged to make financial decisions mirroring the choices people face throughout their lifetime. Each decision was associated with a specific age or life stage, and participants had to weigh the benefits and consequences of their choices.</p>
+          </div>
+          <div className="competition-box" style={{ backgroundColor: '#010725', padding: '20px', margin: '10px',paddingTop: '0px',marginTop:'0', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+            <h3 style={{ color: '#2389f0' }}>Trading Championship </h3>
+            
+            <img src="/images/Events/insights.png" alt="Competition 5" style={{ maxWidth: '90%', padding: '20px',height: 'auto', marginLeft:  '32px' }} />
+           
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>Trading competition in collaboration with StockGro, providing students with an opportunity to trade in a real live Indian stock market simulation.</p>
+          </div>
+        </div>
+        <div className="GuestLecture" style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '2.6rem', color: '#57E2E5', textAlign: 'center', marginBottom: '20px' }}>
+        Guest Lectures
+        <div className="boxes-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', marginTop: '25px', flexWrap: 'wrap' }}>
+          <div className="gl-box" style={{ backgroundColor: '#010725', padding: '20px',paddingTop: '0px',marginTop:'0', margin: '10px', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+            <h3 style={{ color: '#2389f0' }}>Careers in Finance</h3>
+            
+            <img src="/images/Events/cif.png" alt="GL 1" style={{ maxWidth: '100%', padding: '20px',height: 'auto', marginLeft:'36px' }} />
+           
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>If you were uncertain about your career path in Finance and sought insights into opportunities, you shouldn't have missed the exclusive Guest Lecture by ProfNITT in collaboration with FinSchool. The session delved into three pivotal roles in the Finance sector : Financial Management, Equity Research, and Investment Banking. </p>
+          </div>
+          <div className="gl-box" style={{ backgroundColor: '#010725', padding: '20px', margin: '10px',paddingTop: '11px',marginTop:'0', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+            <h3 style={{ color: '#2389f0' }}> ProfNITT x Toastmasters </h3>
+            
+            <img src="/images/Events/tif.png" alt="GL 2" style={{ maxWidth: '91%',padding: '20px', height: 'auto', marginLeft:'28px' }} />
+            
+
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>ProfNITT, in collaboration with Toastmasters International, hosted a captivating guest lecture by DTM Ra. Ma. Palaniappan. The session was crafted to offer valuable insights into effective money management and making informed investment decisions. </p>
+          </div>
+          <div className="gl-box" style={{ backgroundColor: '#010725', padding: '20px', margin: '10px',paddingTop: '0px',marginTop:'0', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+            <h3 style={{ color: '#2389f0' }}> ProfNITT x Wagmi </h3>
+            
+            <img src="/images/Events/wgi.png" alt="GL 3" style={{ maxWidth: '69%', padding: '20px',height: 'auto', marginLeft:'90px', marginTop:'0px' }} />
+            
+
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>In a thought-provoking webinar hosted by ProfNITT and Wagmi, students seized the opportunity to delve into the dynamic realm of Web 3.0. Renowned guest speaker, Pankaj Gautam—an IIT Gandhinagar graduate and the current Head of Product at Mudrex—shared his expertise. </p>
+          </div>
+          <div className="gl-box" style={{ backgroundColor: '#010725', padding: '20px', margin: '10px', paddingTop: '0px',marginTop:'0',borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
+            <h3 style={{ color: '#2389f0' }}> Insights '22 </h3>
+            
+            <img src="/images/Events/bnpl.png" alt="GL 4" style={{ maxWidth: '90%',padding: '20px', height: 'auto', marginLeft:'25px', marginTop:'5px'}} />
+            
+
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>In a panel discussion, we delved into the debate between BNPL (Buy Now, Pay Later) and SNPL (Save Now, Purchase Later). The discussion explored many individuals' dilemma: whether to save money for future purchases or opt for the convenience of buying now and paying later. </p>
+          </div>
+        </div>
+      </div>
+      </div>
       <Footer />
       </div>
     
