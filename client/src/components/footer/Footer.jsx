@@ -51,9 +51,9 @@ const Footer = () => {
         <div className='text-center mt-6'>
         <h1 className='font-DMSans' style={{ color: '#57E2E5', padding: 0, fontSize: '20px', fontFamily: 'Poppins, sans-serif' }}>
     Designed and Deployed by  
-    <a href="https://www.linkedin.com/in/riya-gupta-rg3010" style={{ textDecoration: 'none', color: '#57E2E5' }}> Riya &</a> 
-      
-    <a href="https://www.linkedin.com/in/aditya-pratap-singh-952a8820a/" style={{ textDecoration: 'none', color: '#57E2E5' }}>  Aditya</a>
+      <a href="https://www.linkedin.com/in/riya-gupta-rg3010" target="_blank" style={{ textDecoration: 'none', color: '#57E2E5' }}> Riya &</a> 
+        
+      <a href="https://www.linkedin.com/in/aditya-pratap-singh-952a8820a/" target="_blank"style={{ textDecoration: 'none', color: '#57E2E5' }}>  Aditya</a>
 </h1>
 
         </div>
