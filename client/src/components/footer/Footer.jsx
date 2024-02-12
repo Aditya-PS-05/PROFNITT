@@ -206,6 +206,7 @@ const Footer = () => {
           }}
         />
         <hr />
+<<<<<<< HEAD
         <div className="text-center mt-6">
           <h1
             className="font-DMSans"
@@ -232,6 +233,16 @@ const Footer = () => {
               Aditya
             </a>
           </h1>
+=======
+        <div className='text-center mt-6'>
+        <h1 className='font-DMSans' style={{ color: '#57E2E5', padding: 0, fontSize: '20px', fontFamily: 'Poppins, sans-serif' }}>
+    Designed and Deployed by  
+      <a href="https://www.linkedin.com/in/riya-gupta-rg3010" target="_blank" style={{ textDecoration: 'none', color: '#57E2E5' }}> Riya &</a> 
+        
+      <a href="https://www.linkedin.com/in/aditya-pratap-singh-952a8820a/" target="_blank"style={{ textDecoration: 'none', color: '#57E2E5' }}>  Aditya</a>
+</h1>
+
+>>>>>>> 9a8ec65b58508da6bd38c699c26008282a756eda
         </div>
       </div>
     </div>
