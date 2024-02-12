@@ -8,9 +8,9 @@ const BlogsCard = () => {
                 Full Blog
             </div>
             <div className='bg-[#010D50] h-[35%] rounded m-2 border-b-2 border-[#0328EE]'>
-                <div className='h-[80%] m-5 mt-10'>
+                <div className='h-[80%] mt-5 m-1'>
                     <h1 className='text-[20px]'>The Basics about Cryptocurrency</h1>
-                    <p className='m-5'>Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.</p>
+                    <p className=''>Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.</p>
                 </div>
             </div>
             <div className='h-[15%] flex pl-3'>

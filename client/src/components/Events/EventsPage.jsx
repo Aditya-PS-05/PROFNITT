@@ -15,20 +15,22 @@ const EventsPage = () => {
   }, []);
 
   return (
-    <div >
-      <div className="Navbar">
+    <div className='relative z-[1000000]'>
+      {/* <div className="Navbar"> */}
         <Navbar/> 
-      </div>
-      <div style={{ backgroundColor: '#010725', paddingTop: '105px' }}>
+      {/* </div> */}
+      <div className='h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute top-[5%] left-[20%] z-0 shadow-2xl shadow-[#010725] blur-[150px] border-2 border-red-500' />
+      <div style={{ backgroundColor: '#010725', paddingTop: '105px' }} className='border-2 border-green-500'>
       <div className="centered-content" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: 'calc(100vh - 105px)', backgroundColor: '#010725' }}>
         <div className="boundary p-6 text-xl border-none md:max-w-[600px] sm:max-w-[90%] text-center rounded-[10px]" style={{ backgroundColor: '#010725', color: '#010725', marginTop: '-10px', height: boundaryHeight }}>
-          <div className="heading" style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '2.6rem', color: '#57E2E5', textAlign: 'center', marginBottom: '20px' }}>
+          <div className="heading " style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '2.6rem', color: '#57E2E5', textAlign: 'center', marginBottom: '20px' }}>
             Workshops and Events
           </div>
 
-          <div id="boundary-content" className="info" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.5rem', color: '#FFFCF9', textAlign: 'center', marginTop: '25px' }}>
+          <div id="boundary-content" className="" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.5rem', color: '#FFFCF9', textAlign: 'center', marginTop: '25px' }} >
             Profnitt firmly believes that besides all the work we do as a team to learn finance and stock market, it is highly necessary to give back to the community.
-            <br/><br/>
+            <br/>
+            <br/>
             We organize several workshops and events every year with the vision to make newcomers feel welcome and not alien to the field of Finance. We aim at hosting events that serve as platforms for networking, skill-building and creating a supportive community of aspiring finance professionals.   
             <br />
             <br />
@@ -51,8 +53,7 @@ const EventsPage = () => {
             
             <img src="/images/Events/money.jpg" alt="Workshop 2" style={{ maxWidth: '76%', marginLeft:'73px', height: '70%',padding: '20px' }} />
             
-
-            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>The workshop titled 'Money+Money=Big Money' was conducted by club members, offering insights into the Indian Stock Market. Participants delved into technical and fundamental analysis, learning to identify ideal stocks for their portfolios. </p>
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>The workshop titled &apos;Money+Money=Big Money&apos; was conducted by club members, offering insights into the Indian Stock Market. Participants delved into technical and fundamental analysis, learning to identify ideal stocks for their portfolios. </p>
           </div>
         </div>
       </div>
@@ -104,7 +105,7 @@ const EventsPage = () => {
             
             <img src="/images/Events/cif.png" alt="GL 1" style={{ maxWidth: '100%', padding: '20px',height: 'auto', marginLeft:'36px' }} />
            
-            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>If you were uncertain about your career path in Finance and sought insights into opportunities, you shouldn't have missed the exclusive Guest Lecture by ProfNITT in collaboration with FinSchool. The session delved into three pivotal roles in the Finance sector : Financial Management, Equity Research, and Investment Banking. </p>
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>If you were uncertain about your career path in Finance and sought insights into opportunities, you shouldn&apos;t have missed the exclusive Guest Lecture by ProfNITT in collaboration with FinSchool. The session delved into three pivotal roles in the Finance sector : Financial Management, Equity Research, and Investment Banking. </p>
           </div>
           <div className="gl-box" style={{ backgroundColor: '#010725', padding: '20px', margin: '10px',paddingTop: '11px',marginTop:'0', borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
             <h3 style={{ color: '#2389f0' }}> ProfNITT x Toastmasters </h3>
@@ -123,12 +124,12 @@ const EventsPage = () => {
             <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>In a thought-provoking webinar hosted by ProfNITT and Wagmi, students seized the opportunity to delve into the dynamic realm of Web 3.0. Renowned guest speaker, Pankaj Gautam—an IIT Gandhinagar graduate and the current Head of Product at Mudrex—shared his expertise. </p>
           </div>
           <div className="gl-box" style={{ backgroundColor: '#010725', padding: '20px', margin: '10px', paddingTop: '0px',marginTop:'0',borderRadius: '10px', maxWidth: '600px', flex: '1 1 100%' }}>
-            <h3 style={{ color: '#2389f0' }}> Insights '22 </h3>
+            <h3 style={{ color: '#2389f0' }}> Insights &apos;22 </h3>
             
             <img src="/images/Events/bnpl.png" alt="GL 4" style={{ maxWidth: '90%',padding: '20px', height: 'auto', marginLeft:'25px', marginTop:'5px'}} />
             
 
-            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>In a panel discussion, we delved into the debate between BNPL (Buy Now, Pay Later) and SNPL (Save Now, Purchase Later). The discussion explored many individuals' dilemma: whether to save money for future purchases or opt for the convenience of buying now and paying later. </p>
+            <p style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400, fontSize: '1.3rem', color: '#FFFCF9', zIndex: 11, textAlign: 'center' }}>In a panel discussion, we delved into the debate between BNPL (Buy Now, Pay Later) and SNPL (Save Now, Purchase Later). The discussion explored many individuals&apos; dilemma: whether to save money for future purchases or opt for the convenience of buying now and paying later. </p>
           </div>
         </div>
       </div>

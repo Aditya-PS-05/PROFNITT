@@ -1,25 +1,22 @@
 import "./About.css";
-import Iphone from "./Iphone";
-
 const About = () => {
   return (
     <div className='flex flex-col border-2 border-red-500 w-full z-[1000] relative'>
       <div className='h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-[50%] right-[60%] z-0 shadow-2xl shadow-[#010725] blur-[150px] border-2 border-red-500' />
-      <div className='flex items-center justify-center w-full z-[2000000]'>
-        <div className='p-6 m-10 text-xl border-2 border-slate-500 md:w-[800px] sm:w-[90%] text-center rounded-[10px]'>
+      <div className='w-full flex items-center justify-center z-[2000000] border-2 border-red-500'>
+        <div className='p-6 text-xl border-2 border-slate-500 md:w-[900px] w-full text-center rounded-[10px]'>
           <h1 className="font-clashDisplay text-5xl font-bold">Abouts</h1>
-          <div className="mt-6 font-PPSupplyMono font-thin">
+          <div className="mt-6 font-PPSupplyMono font-thin ">
             <p>ProfNITT is the official Finance and Investment club of NIT Trichy. We are a close-knit community of finance enthusiasts from diverse backgrounds who take an interest in finance, stock market, options, and quants to spread the elegance of finance among the student community of NIT Trichy.</p>
             <br />
             <p>Being one of the pioneer fintech clubs of the institute, established in 2018, the melange of projects and domains that we, as Profnitt, delve into has always been ever-expanding. With the vision to inculcate healthy and fruitful discussions on markets and the economical state of the world and provides an opportunity to students to get practical experience in the markets.</p>
             <br />
-            <p>We also take part in competitions, fintech hackathons and symposiums in addition to conducting workshops and events to further the spirit of learning and growth among all.</p>
+            <p className="hidden md:block">We also take part in competitions, fintech hackathons and symposiums in addition to conducting workshops and events to further the spirit of learning and growth among all.</p>
             <br />
           </div>
         </div>
       </div>
       <div className='w-full h-full flex-grow flex justify-evenly items-center mt-10 border-red-500 border-2 z-[2000000]'>
-        <Iphone />
         <div className='md:w-[50%] sm:w-[80%] h-full border-2 border-red-500'>
           <h1 className='text-[2.5rem] text-center font-clashDisplay'>Companies we have worked previously: </h1>
           <div>
