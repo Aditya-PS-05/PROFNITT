@@ -18,6 +18,10 @@ module.exports = {
     },
     extend: {
       colors: {
+      tertiary: "#151030",
+      "black-100": "#100d25",
+      "black-200": "#090325",
+      "white-100": "#f3f3f3",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -75,7 +79,8 @@ module.exports = {
         DMSans: "DM Sans",
         clashDisplay: "ClashDisplay-Bold",
         PPSupplyMono: "PPSupplyMono-Ultralight",
-      }
+      },
+      
     },
   },
   plugins: [require("tailwindcss-animate")],

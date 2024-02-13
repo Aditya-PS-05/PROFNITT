@@ -4,6 +4,7 @@ import About from "./About/About";
 import Events from "./Events/Events";
 import Blogs from "./Blogs/Blogs";
 import Footer from "./footer/Footer";
+import Feedbacks from "./Events/Feedbacks";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Main />
       <About />
       <Events />
+      {/* <Feedbacks /> */}
       <Blogs />
       <Footer />
     </div>

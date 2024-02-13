@@ -8,20 +8,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const spinner = document.getElementById('spinner');
+    // const spinner = document.getElementById('spinner');
 
-    if (spinner) {
-      setTimeout(() => {
-        spinner.style.opacity = '0'; // Add opacity animation
-        setTimeout(() => {
-          spinner.style.display = 'none';
-          setLoading(false);
-        }, 500); // Adjust the timeout as needed
-      }, 5000);
-    }
+    // if (spinner) {
+    //   setTimeout(() => {
+    //     spinner.style.opacity = '0'; // Add opacity animation
+    //     setTimeout(() => {
+    //       spinner.style.display = 'none';
+    //       setLoading(false);
+    //     }, 500); // Adjust the timeout as needed
+    //   }, 5000);
+    // }
   }, []);
 
   return (

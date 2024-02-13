@@ -22,13 +22,13 @@ const Main = () => {
         <main className=' md:flex justify-between items-center border-2 border-red-500 relative z-[1000] mb-12' style={{ paddingTop: '95px' }}>
             <div className='h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-[-20%] right-[20%] z-0 shadow-2xl shadow-[#010725] blur-[150px] border-2 border-red-500' />
             <div className='text-white h-full md:w-[50%] sm:w-full flex justify-center items-center border-2 border-green-500 z-[2000000]'>
-                <div className='h-[60%] w-[55%] border-2 border-red-500 mt-6 md:mt-0 z-[100000]'>
+                <div className='h-[60%] w-[55%] border-2 border-red-500 mt-6 md:mt-0 md:ml-0 ml-[-190px] z-[100000]'>
                     <img src="/images/ProfNITT_text.svg" alt="ProfNITT text image" />
-                    <p className='text-2xl font-thin font-PPSupplyMono'>The Finance and Investments club of NIT Trichy</p>
-                    <div className='text-3xl font-PPSupplyMono font-thin'>
+                    <p className='text-2xl font-thin font-PPSupplyMono mt-4'>The Finance and Investments club of NIT Trichy</p>
+                    <div className='text-3xl font-PPSupplyMono font-thin border-2 border-red-600'>
                         <span className='animation-container'>
                             <span className="content__container__text">We are   </span>
-                            <ul className="content__container__list ">
+                            <ul className="content__container__list">
                                 <li className="content__container__list__item">Profit !</li>
                                 <li className="content__container__list__item">Research !</li>
                                 <li className="content__container__list__item">Quant !</li>
