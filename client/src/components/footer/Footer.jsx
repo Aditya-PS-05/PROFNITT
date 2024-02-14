@@ -11,18 +11,18 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Footer = () => {
   return (
-    <div className="w-screen flex justify-center items-center mt-10 border-2 border-red-500">
+    <div className="w-screen flex justify-center items-center mt-10">
       <div className="w-[100%] bg-[#010D50] md:px-16 md:py-7">
-        <div className="md:flex justify-center items-center w-full border-yellow-400 border-2">
-          <div className="sm:w-[60%] md:w-[40%] flex justify-center items-center flex-col border-green-400 border-2 md:m-0 m-auto">
-            <div style={{ display: "flex", alignItems: "center" }} className="border-2 border-green-500">
+        <div className="md:flex justify-center items-center w-full ">
+          <div className="sm:w-[60%] md:w-[40%] flex justify-center items-center flex-col md:m-0 m-auto">
+            <div style={{ display: "flex", alignItems: "center" }} className="">
               <img
                 src="/images/logo.png"
                 alt="ProfNITT Logo"
                 className="w-[90px]"
                 style={{ marginTop: "-20px", marginRight: "15px" }}
               />
-              <div className="border-2 border-red-500">
+              <div className="">
                 <br />
                 <h1
                   className="text-[1vmax] font-DMSans font-bold"
@@ -102,9 +102,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%] border-red-400 border-2 flex justify-center items-center md:m-0 m-auto mt-4">
+          <div className="w-[50%]  flex justify-center items-center md:m-0 m-auto mt-4">
             <div
-              className="border-red-400 border-2"
+              className=""
             >
               <h1
                 style={{

@@ -6,15 +6,14 @@ import Blogs from "./Blogs/Blogs";
 import Footer from "./footer/Footer";
 import Feedbacks from "./Events/Feedbacks";
 
-
 const Home = () => {
   return (
     <div className='bg-[#010725] text-white m-0 p-0 w-[100vw]'>
       <Navbar  />
       <Main />
       <About />
+      {/* <AboutSection /> */}
       <Events />
-      {/* <Feedbacks /> */}
       <Blogs />
       <Footer />
     </div>

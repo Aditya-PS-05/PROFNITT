@@ -80,4 +80,48 @@ const testimonials = [
   },
 ];
 
-export {experiences, testimonials}
+const abouts = [
+  {
+    title: "Being one of the pioneer fintech clubs of the institute, established in 2018, the melange of projects and domains that we,as Profnitt, delve into has always been ever-expanding.",
+    icon: "/images/finance_logo_about.svg"
+  },
+  {
+    title: "Being one of the pioneer fintech clubs of the institute, established in 2018, the melange of projects and domains that we,as Profnitt, delve into has always been ever-expanding.",
+    icon: "/images/finance_chart_about.svg"
+  },
+  {
+    title: "We also take part in competitions, fintech hackathons and symposiums in addition to conducting workshops and events to further the spirit of learning and growth among all.",
+    icon: "/images/finance_wallet_about.svg"
+  },
+  
+];
+
+const blogs = [
+  {
+    title: "The Basics about Cryptocurrency",
+    icon: "/images/finance_logo_about.svg",
+    link: "https://www.google.com/maps",
+    description: "Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.",
+    member: "Aditya",
+    Date: "August 2, 2021",
+  },
+  {
+    title: "The Basics about Cryptocurrency",
+    icon: "/images/finance_logo_about.svg",
+    link: "https://www.google.com/maps",
+    description: "Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.",
+    member: "Aditya",
+    Date: "August 2, 2021",
+  },
+  {
+    title: "The Basics about Cryptocurrency",
+    icon: "/images/finance_logo_about.svg",
+    link: "https://www.google.com/maps",
+    description: "Lorem ipsum dolor sit ametero irseo, consectetur adipiscing elit. Scelerisque viverra donec diammeo.",
+    member: "Aditya",
+    Date: "August 2, 2021",
+  },
+  
+];
+
+export {experiences, testimonials, abouts, blogs}

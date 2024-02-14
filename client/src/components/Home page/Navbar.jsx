@@ -13,14 +13,14 @@ const Navbar = () => {
         width: "100vw",
         height: "100px",
         fontFamily: "DMSans, sans-serif",
-        border: "2px solid red",
+        // border: "2px solid red",
         backgroundColor: "#080b2d",
         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
         zIndex: 9999,
       }}
     >
       <div className="flex-1 flex items-center justify-evenly h-full">
-        <div className="w-[150px]">
+        <div className="w-[150px] ml-10">
           <img
             src="/images/logo.png"
             alt="Logo"
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
 
         <div
-          className="flex-1 md:flex items-center justify-evenly h-full border-red-500 border-2 hidden"
+          className="flex-1 md:flex items-center justify-evenly h-full hidden"
           style={{
             fontFamily: "Poppins, sans-serif",
             marginTop: "10px",
