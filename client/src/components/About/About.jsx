@@ -15,7 +15,7 @@ const About = () => {
   return (
     <div className="flex flex-col  w-full z-[1000] relative mt-8">
       <div className="h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-[50%] right-[60%] z-0 shadow-2xl shadow-[#010725] blur-[150px] " />
-      <div className="w-[90%] z-[2000000]  m-auto">
+      <div className="w-[90%] z-[2000000] m-auto">
         <div className=" p-4">
           <motion.dev variants={textVariant()}>
               <h2 className={styles.sectionHeadText}>About Us.</h2>
@@ -33,7 +33,7 @@ const About = () => {
             </motion.p>
         </div>
           <div className="mt-6">
-            <div className={`p-4 flex gap-[30px]`}>
+            <div className={`p-4 md:flex gap-[30px]`}>
               {abouts.map((about, index) => (
                 <AboutsCard key={index} {...about} />
               ))}
@@ -100,7 +100,7 @@ const ExperienceCard = ({ experience }) => (
 
 const AboutsCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:w-[250px] w-full mt-6 md:mt-0">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"

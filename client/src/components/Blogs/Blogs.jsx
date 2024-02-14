@@ -5,6 +5,8 @@ import { styles } from "../../styles";
 import SectionWrapper from "../../hoc/SectionWrapper";
 import { Link } from "react-router-dom";
 import { blogs } from "../../constants";
+import ConsultancyPOP from "../Home page/ConsultancyPOP";
+
 
 const Blogs = () => {
   return (
@@ -16,9 +18,8 @@ const Blogs = () => {
         >
           Browse our latest articles
         </h1>
-        <div className="right-10 absolute text-center font-DMSans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non neque
-          orci amet, amet .
+        <div className="right-10 absolute text-center font-DMSans md:mt-0">
+          <ConsultancyPOP  />
         </div>
       </div>
       <div className="md:flex items-center m-5 justify-evenly h-[80%]">
@@ -32,7 +33,7 @@ const Blogs = () => {
 
 const BlogsCard = ({ index, title, icon, link, description, member, date }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:w-[250px] w-full mt-6 md:mt-0">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="h-[501px] md:w-[301px] sm:w-[70%] xs:w-[25%] green-pink-gradient p-[1px] rounded-[40px] shadow-card m-auto flex justify-center items-center"
