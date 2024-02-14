@@ -1,31 +1,49 @@
 :root {
     background-color: #010725;
 }
+/* CSS to style links */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #010725; /* Set the background color here */
+}
+/* Ensure the container occupies the full screen */
 .container {
-    align-items: center;
-    background-color: #010725;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    width: 100vw;
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out; /* Smooth transition */
+  align-items: center;
+  background-color: #010725;
+  display: flex;
+  height: 100vh; /* Make the container full height of the viewport */
+  justify-content: center;
+  width: 100vw; /* Make the container full width of the viewport */
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; /* Smooth transition */
+}
+
+/* Your existing styles for the spinner animation and image */
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
   }
-  
-  @keyframes sk-scaleout {
-    0% {
-      -webkit-transform: scale(0);
-      transform: scale(0);
-    }
-    100% {
-      -webkit-transform: scale(1);
-      opacity: 0.5;
-      transform: scale(1);
-    }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 0.5;
+    transform: scale(1);
   }
-  
-  #spinner {
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out; /* Smooth transition */
-  }
-  
+}
+
+#spinner {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out; 
+}
+
+@font-face {
+  font-family: ClashDisplay-Bold;
+  src: url("/fonts/ClashDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: PPSupplyMono-Ultralight;
+  src: url("/fonts/PPSupplyMono-Ultralight.otf");
+}
