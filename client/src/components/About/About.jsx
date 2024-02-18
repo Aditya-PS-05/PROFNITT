@@ -1,4 +1,4 @@
-// import "./About.css";
+import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -17,28 +17,30 @@ const About = () => {
       <div className="h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-[50%] right-[60%] z-0 shadow-2xl shadow-[#010725] blur-[150px] " />
       <div className="w-[90%] z-[2000000] m-auto">
         <div className="p-4 text-center border-2 border-gray-500 md:w-[50%] mx-auto rounded-[10px]">
-          <motion.dev variants={textVariant()}>
-              <h2 className={`${styles.sectionHeadText}`}>About Us.</h2>
-              <p className={styles.sectionSubText}>Want to know who we are?</p>
-            </motion.dev>
-            <motion.p
-              variants={fadeIn("", "", 0.1, 1)}
-              className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px] mx-auto font-family-Poppins font-weight-400 text-align-center color-FFFCF9 text-align-justify"
-            >
-              ProfNITT is the official Finance and Investment club of NIT Trichy.
-              We are a close-knit community of finance enthusiasts from diverse
-              backgrounds who take an interest in finance, stock market, options,
-              and quants to spread the elegance of finance among the student
-              community of NIT Trichy.
-            </motion.p>
+          <motion.div variants={textVariant()}>
+            <h2 className={`${styles.sectionHeadText}`}>About Us.</h2>
+            <p className="font-Poppins font-sans font-normal text-base md:text-lg lg:text-xl text-white text-center z-10 text-cyan-400">Want to know who we are?</p>
+
+              <br />
+          </motion.div>
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className="font-Poppins font-sans font-normal text-base md:text-lg lg:text-xl text-white text-center z-10 "
+          >
+            ProfNITT is the official Finance and Investment club of NIT Tiruchirapalli.
+            We are a close-knit community of finance enthusiasts from diverse
+            backgrounds who take an interest in finance, stock market, options,
+            and quants to spread the elegance of finance among the student
+            community of NIT Trichy.
+          </motion.p>
         </div>
-          <div className="mt-6">
-            <div className={`p-4 md:flex gap-[30px]`}>
-              {abouts.map((about, index) => (
-                <AboutsCard key={index} {...about} />
-              ))}
-            </div>
+        <div className="mt-6">
+          <div className={`p-4 md:flex gap-[30px]`}>
+            {abouts.map((about, index) => (
+              <AboutsCard key={index} {...about} />
+            ))}
           </div>
+        </div>
       </div>
       <div className="w-[90%] h-full mx-auto flex-grow flex justify-evenly items-center mt-10  z-[2000000]">
         <div className="w-full h-full ">
@@ -116,4 +118,4 @@ const AboutsCard = ({ index, title, icon }) => {
   );
 };
 
-export default  About;
+export default About;
