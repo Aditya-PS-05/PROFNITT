@@ -16,14 +16,14 @@ const About = () => {
     <div className="flex flex-col  w-full z-[1000] relative mt-8">
       <div className="h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-[50%] right-[60%] z-0 shadow-2xl shadow-[#010725] blur-[150px] " />
       <div className="w-[90%] z-[2000000] m-auto">
-        <div className=" p-4">
+        <div className="p-4 text-center border-2 border-gray-500 md:w-[50%] mx-auto rounded-[10px]">
           <motion.dev variants={textVariant()}>
-              <h2 className={styles.sectionHeadText}>About Us.</h2>
+              <h2 className={`${styles.sectionHeadText}`}>About Us.</h2>
               <p className={styles.sectionSubText}>What to know who we are?</p>
             </motion.dev>
             <motion.p
               variants={fadeIn("", "", 0.1, 1)}
-              className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+              className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto"
             >
               ProfNITT is the official Finance and Investment club of NIT Trichy.
               We are a close-knit community of finance enthusiasts from diverse

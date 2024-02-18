@@ -124,4 +124,52 @@ const blogs = [
   
 ];
 
-export {experiences, testimonials, abouts, blogs}
+const members = [
+  {
+    name: "Suryabh Bhattacharya",
+    team: "Junior Analyst",
+    image: "/images/stockgro.jpg",
+    instagram: "",
+    twitter: "",
+    github: "",
+    linkedIn: ""
+  },
+  {
+    name: "Aditya Pratap Singh",
+    team: "Junior Analyst",
+    image: "/images/stockgro.jpg",
+    instagram: "",
+    twitter: "",
+    github: "",
+    linkedIn: ""
+  },
+  {
+    name: "Aditya Pratap Singh",
+    team: "Junior Analyst",
+    image: "/images/stockgro.jpg",
+    instagram: "",
+    twitter: "",
+    github: "",
+    linkedIn: ""
+  },
+  {
+    name: "Aditya Pratap Singh",
+    team: "Junior Analyst",
+    image: "/images/stockgro.jpg",
+    instagram: "",
+    twitter: "",
+    github: "",
+    linkedIn: ""
+  },
+  {
+    name: "Aditya Pratap Singh",
+    team: "Junior Analyst",
+    image: "/images/stockgro.jpg",
+    instagram: "",
+    twitter: "",
+    github: "",
+    linkedIn: ""
+  }
+]
+
+export {experiences, testimonials, abouts, blogs, members}
