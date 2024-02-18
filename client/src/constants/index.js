@@ -288,6 +288,6 @@ const events = [
     image : "/images/Events/money.png",
     description: "The workshop titled 'Money+Money=Big Money' was conducted by club members, offering insights into the Indian Stock Market. Participants delved into technical and fundamental analysis, learning to identify ideal stocks for their portfolios."
   }
-
 ]
-export {experiences, testimonials, abouts, blogs, members}
+
+export {experiences, testimonials, abouts, blogs, members, events}
