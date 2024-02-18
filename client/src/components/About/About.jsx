@@ -19,11 +19,11 @@ const About = () => {
         <div className="p-4 text-center border-2 border-gray-500 md:w-[50%] mx-auto rounded-[10px]">
           <motion.dev variants={textVariant()}>
               <h2 className={`${styles.sectionHeadText}`}>About Us.</h2>
-              <p className={styles.sectionSubText}>What to know who we are?</p>
+              <p className={styles.sectionSubText}>Want to know who we are?</p>
             </motion.dev>
             <motion.p
               variants={fadeIn("", "", 0.1, 1)}
-              className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto"
+              className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px] mx-auto font-family-Poppins font-weight-400 text-align-center color-FFFCF9 text-align-justify"
             >
               ProfNITT is the official Finance and Investment club of NIT Trichy.
               We are a close-knit community of finance enthusiasts from diverse
