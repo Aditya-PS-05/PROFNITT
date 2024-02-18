@@ -45,7 +45,9 @@ const Navbar = () => {
           <div className="cursor-pointer">
             <Link to="/members">MEMBERS</Link>
           </div>
-          <div className="nav-item">BLOGS</div>
+          <div className="nav-item">
+            <Link to="/blogs">Blogs</Link>
+            </div>
           <div className="nav-item">
             <a
               href="https://medium.com/@profnitt.club"
