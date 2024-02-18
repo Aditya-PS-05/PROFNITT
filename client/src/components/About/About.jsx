@@ -23,7 +23,7 @@ const About = () => {
             </motion.dev>
             <motion.p
               variants={fadeIn("", "", 0.1, 1)}
-              className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px] mx-auto "
+              className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px] mx-auto font-family-Poppins font-weight-400 text-align-center color-FFFCF9 text-align-justify"
             >
               ProfNITT is the official Finance and Investment club of NIT Trichy.
               We are a close-knit community of finance enthusiasts from diverse

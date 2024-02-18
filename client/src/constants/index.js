@@ -171,5 +171,68 @@ const members = [
     linkedIn: ""
   }
 ]
+const events = [
+  // Guest lectures
+  {
+    name : "Careers in Finance in Collaboration with FinSchool",
+    image : "/images/Events/carrer.png",
+    description : "If you were uncertain about your career path in Finance and sought insights into opportunities, you shouldn't have missed the exclusive Guest Lecture by ProfNITT in collaboration with FinSchool. The session delved into three pivotal roles in the Finance sector : Financial Management, Equity Research, and Investment Banking."
 
+  },
+  {
+    name:"ProfNITT x Toastmasters",
+    image : "/images/Events/toast.png",
+    description: "ProfNITT, in collaboration with Toastmasters International, hosted a captivating guest lecture by DTM Ra. Ma. Palaniappan. The session was crafted to offer valuable insights into effective money management and making informed investment decisions."
+  },
+  {
+    name : "ProfNITT x Wagmi",
+    image : "/images/Events/wagmi.png",
+    description: "In a thought-provoking webinar hosted by ProfNITT and Wagmi, students seized the opportunity to delve into the dynamic realm of Web 3.0. Renowned guest speaker, Pankaj Gautam—an IIT Gandhinagar graduate and the current Head of Product at Mudrex—shared his expertise."
+  },
+  {
+    name : "Insights '22",
+    image : "/images/Events/insights.png",
+    description: "In a panel discussion, we delved into the debate between BNPL (Buy Now, Pay Later) and SNPL (Save Now, Purchase Later). The discussion explored many individuals' dilemma: whether to save money for future purchases or opt for the convenience of buying now and paying later."
+  },
+  // Competitions
+  {
+    name : "FinHunt!",
+    image : "/images/Events/finhunt.png",
+    description: "The event promised an adrenaline rush, requiring participants to don their suits and engage their thinking caps for an exciting and challenging experience. The hunt led participants on an enthralling journey towards a treasure chest filled with exciting prizes. FinHunt was a memorable event that combined finance knowledge with thrill and excitement."
+  },
+  {
+    name : "BizQuiz - MingOut",
+    image : "/images/Events/mingout.jpeg.png",
+    description: "The Watanabe BizQuiz Fest, powered by Mingout, offered an incredible opportunity for participants to win ₹20,000 directly. Enthusiasts were encouraged to don their suits and thinking hats, immersing themselves in the captivating world of business, personal finance, trading, and the stock market through the quiz."
+  },
+  {
+    name : "IPL-Mania",
+    image : "/images/Events/ipl.jpg",
+    description: "The challenge offered an opportunity to test cricket knowledge and strategy while providing a chance to win exciting prizes. Essentially, it was an In-House Dream11, allowing enthusiasts to showcase their cricket expertise in a thrilling and rewarding competition."
+  },
+ 
+  {
+    name : "DecisionQuest",
+    image : "/images/Events/qst.png",
+    description: "Participants were challenged to make financial decisions mirroring the choices people face throughout their lifetime. Each decision was associated with a specific age or life stage, and participants had to weigh the benefits and consequences of their choices."
+  },
+  {
+    name : "Trading Championship",
+    image : "/images/Events/cif.png",
+    description: "Trading competition in collaboration with StockGro, providing students with an opportunity to trade in a real live Indian stock market simulation."
+  },
+  // Workshops
+
+   {
+    name : "Brain Alphathon",
+    image : "/images/Events/worldQuantt.png",
+    description: "ProfNITT presented the WorldQuant BRAIN Alphathon—a dynamic journey into quantitative finance. The workshop was led by industry experts Yash Zanwar and Aditya Chaturvedi."
+  },
+  {
+    name : "Big Money",
+    image : "/images/Events/money.png",
+    description: "The workshop titled 'Money+Money=Big Money' was conducted by club members, offering insights into the Indian Stock Market. Participants delved into technical and fundamental analysis, learning to identify ideal stocks for their portfolios."
+  }
+
+]
 export {experiences, testimonials, abouts, blogs, members}
