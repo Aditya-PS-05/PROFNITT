@@ -19,7 +19,7 @@ const EventsPage = () => {
       {/* <div className="Navbar"> */}
         <Navbar/> 
       {/* </div> */}
-      <div className='h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute top-[5%] left-[20%] z-0 shadow-2xl shadow-[#010725] blur-[150px] border-2 border-red-500' />
+      <div className='h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute top-[5%] left-[20%]  shadow-2xl shadow-[#010725] blur-[150px] border-2 border-red-500' />
       <div style={{ backgroundColor: '#010725', paddingTop: '105px' }} className='border-2 border-green-500'>
       <div className="centered-content" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: 'calc(100vh - 105px)', backgroundColor: '#010725' }}>
         <div className="boundary p-6 text-xl border-none md:max-w-[600px] sm:max-w-[90%] text-center rounded-[10px]" style={{ backgroundColor: '#010725', color: '#010725', marginTop: '-10px', height: boundaryHeight }}>

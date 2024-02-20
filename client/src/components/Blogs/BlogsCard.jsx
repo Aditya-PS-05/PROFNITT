@@ -4,7 +4,7 @@ import { fadeIn } from "../../utils/motion";
 
 const BlogsCard = ({ index, title, icon, link, description, member, date }) => {
     return (
-      <Tilt className="xs:w-[250px] w-full mt-6 md:mt-0 border-2 border-red-500">
+      <Tilt className="xs:w-[250px] w-full mt-6 md:mt-6">
         <motion.div
           variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
           className="h-[501px] md:w-[301px] sm:w-[70%] xs:w-[25%] green-pink-gradient p-[1px] rounded-[40px] shadow-card m-auto flex justify-center items-center"
