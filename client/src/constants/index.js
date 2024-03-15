@@ -180,51 +180,271 @@ const blogs = [
 ];
 
 const members = [
+  // Analyst Members 
   {
+    team: "Senior Analyst",
+    name: "Riya Gupta",
+    image: "/images/stockgro.jpg",
+    description: "Career doesn't go up immediately, so does stock.",
+    linkedIn: "https://linkedin.com/in/riya-gupta-rg3010"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Shreyas Kali",
+    image: "/members/photos 1/Shreyas Kali.jpg",
+    description: "money + money = big money",
+    linkedIn: "https://linkedin.com/in/shreyaskali"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Tejas Bothara",
+    image: "/members/photos 1/Tejas Bothara.jpg",
+    description: "Finance aficionado: Money maestro, thrill-seeker!",
+    linkedIn: "https://www.linkedin.com/in/tejas-b-a37586241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Henson Sudheer U S",
+    image: "/members/photos 1/Henson Sudheer U S.jpg",
+    description: "Money is the motive🤑",
+    linkedIn: "https://www.linkedin.com/in/henson-sudheer-u-s-34084b230/"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Ritu Raj",
+    image: "/images/stockgro.jpg",
+    description: "An individual deeply passionate about delving into the realms of finance and business.",
+    linkedIn: "http://linkedin.com/in/ritu-raj-7b771549"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Sabavath YuvarajS",
+    image: "/members/photos 1/Sabavath Yuvaraj.jpg",
+    description: "risk taker, risk h toh isq h",
+    linkedIn: "https://www.linkedin.com/in/sabavath-yuvaraj-9a8808223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Girijasri Rajendran",
+    image: "/members/photos 1/Girijasri Rajendran.jpg",
+    description: "On my way to becoming a wealth ninja :)",
+    linkedIn: "https://www.linkedin.com/in/girijasri-rajendran-9b8a21228?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZhqlFN9xR3iZxiaWh6EDTg%3D%3D"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Ananth Sundar",
+    image: "/members/photos 1/Ananth Sundar.JPG",
+    description: "Football, powerlifting , cricket and many more , was interested in finance ever since 12th grade since I wanted to earn money ",
+    linkedIn: "https://www.linkedin.com/in/henson-sudheer-u-s-34084b230/"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Avinash Balaji A",
+    image: "/members/photos 1/Avinash Balaji A.jpg",
+    description: "Making life easier through finance",
+    linkedIn: "https://www.linkedin.com/in/avinash-balaji-57354a202"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Jaina Bavishi",
+    image: "/members/photos 1/Jaina Bavishi.JPG",
+    description: "Finance lover, investing enthusiast.",
+    linkedIn: "https://www.linkedin.com/in/jaina-bavishi-a0a0b3225"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Mudit Tripathi",
+    image: "/images/stockgro.jpg",
+    description: "Apna Sapna Money Money",
+    linkedIn: "www.linkedin.com/in/mudit-tripathi-6b620823b"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Yashaswini Rajpal",
+    image: "/members/photos 1/Yashaswini Rajpal.jpg",
+    description: "I’m a competitive individual and have a deep fascination for understanding economic intricacies and the dynamics of the market.",
+    linkedIn: "https://www.linkedin.com/in/yashaswini-rajpal-983558228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+  },
+  {
+    team: "Senior Analyst",
+    name: "Amit Singh",
+    image: "/members/photos 1/AMIT SINGH.jpg",
+    description: "Options Maestro, Forex Aficionado, Finance Enthusiast.",
+    linkedIn: "https://www.linkedin.com/in/yashaswini-rajpal-983558228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+  },
+
+
+  // Core Members
+  {
+    team: "Core",
+    name: "Rishi Nair",
+    image: "/members/photos 1/AMIT SINGH.jpg",
+    description: "Options Maestro, Forex Aficionado, Finance Enthusiast.",
+    linkedIn: "https://www.linkedin.com/in/yashaswini-rajpal-983558228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+  },
+  {
+    team: "Core",
+    name: "Chinmay Upadhye",
+    image: "/members/photos 1/Chinmay Upadhye.jpg",
+    description: "Options Maestro, Forex Aficionado, Finance Enthusiast.",
+    linkedIn: "https://www.linkedin.com/in/yashaswini-rajpal-983558228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+  },
+  {
+    team: "Core",
+    name: "Bhuvaneshwaran M",
+    image: "/members/photos 1/Bhuvaneshwaran M.jpg",
+    description: "Options Maestro, Forex Aficionado, Finance Enthusiast.",
+    linkedIn: "https://www.linkedin.com/in/yashaswini-rajpal-983558228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+  },
+  {
+    team: "Core",
     name: "Suryabh Bhattacharya",
-    team: "Junior Analyst",
-    image: "/images/stockgro.jpg",
-    instagram: "",
-    twitter: "",
-    github: "",
-    linkedIn: ""
+    image: "/members/photos 1/Suryabh Bhattacharya.jpg",
+    description: "Options Maestro, Forex Aficionado, Finance Enthusiast.",
+    linkedIn: "https://www.linkedin.com/in/yashaswini-rajpal-983558228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+  },
+
+  // Junior Analyst
+  {
+    team: "Analyst",
+    name: "Pratyush Kumar",
+    image: "/members/photos 1/Pratyush Kumar.jpg",
+    description: "Analytical Thinker with Business intelligence",
+    linkedIn: "https://www.linkedin.com/in/pratyush-arya-73b70325a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
-    name: "Aditya Pratap Singh",
-    team: "Junior Analyst",
-    image: "/images/stockgro.jpg",
-    instagram: "",
-    twitter: "",
-    github: "",
-    linkedIn: ""
+    team: "Analyst",
+    name: "Pranav Jadhal",
+    image: "/members/photos 1/Pranav Jadhal.jpg",
+    description: "The Wolf of Wall Street",
+    linkedIn: "https://www.linkedin.com/in/pranav-jadhal-a9488824b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
+    team: "Analyst",
     name: "Aditya Pratap Singh",
-    team: "Junior Analyst",
-    image: "/images/stockgro.jpg",
-    instagram: "",
-    twitter: "",
-    github: "",
-    linkedIn: ""
+    image: "/members/photos 1/Aditya Pratap Singh.jpg",
+    description: "Options Maestro, Forex Aficionado, Finance Enthusiast.",
+    linkedIn: "https://www.linkedin.com/in/aditya-pratap-singh-952a8820a/"
   },
   {
-    name: "Aditya Pratap Singh",
-    team: "Junior Analyst",
-    image: "/images/stockgro.jpg",
-    instagram: "",
-    twitter: "",
-    github: "",
-    linkedIn: ""
+    team: "Analyst",
+    name: "Rishabh Raj Sahay",
+    image: "/members/photos 1/Rishabh Raj Sahay.jpg",
+    description: "I trade on traps.",
+    linkedIn: "https://www.linkedin.com/in/rishabhrajsahay"
   },
   {
-    name: "Aditya Pratap Singh",
-    team: "Junior Analyst",
-    image: "/images/stockgro.jpg",
-    instagram: "",
-    twitter: "",
-    github: "",
+    team: "Analyst",
+    name: "Mahit Mathew Bose",
+    image: "/members/photos 1/Mahit Mathew Bose.jpg",
+    description: "Love the cash (in)flow",
+    linkedIn: "https://www.linkedin.com/in/mahit-mathew-bose-112293222"
+  },
+  {
+    team: "Analyst",
+    name: "Parikshit Ameta",
+    image: "/members/photos 1/Parikshit Ameta.jpg",
+    description: "There is no nobility is poverty.",
+    linkedIn: "https://www.linkedin.com/in/ parikshit-ameta-738345246"
+  },
+  {
+    team: "Analyst",
+    name: "Mahendra Singh",
+    image: "/members/photos 1/Mahendra Singh.jpg",
+    description: "Hii I am Mahendra Singh, I am interested in short term equity trading or swing trading ",
+    linkedIn: "https://www.linkedin.com/in/mahendra-singh-b53362285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    team: "Analyst",
+    name: "Sayan Bose",
+    image: "/members/photos 1/Sayan Bose.jpg",
+    description: "I'm a financial researcher, who dives into the depths of academic journals, emerging with insights.",
+    linkedIn: "https://www.linkedin.com/in/sayan-bose-82a678285"
+  },
+  {
+    team: "Analyst",
+    name: "Sneha Koley",
+    image: "/members/photos 1/Sayan Bose.jpg",
+    description: "Money runs the world, and knowing how to manage that money, gives you the power which no other job can ever give. ",
+    linkedIn: "https://www.linkedin.com/in/sneha-koley/"
+  },
+  {
+    team: "Analyst",
+    name: "Gunesh Madhavan",
+    image: "/members/photos 1/Gunesh Madhavan.jpg",
+    description: "An introvert interested in trading and try to earn a reasonable amount from it(hopefully) as a part time ",
+    linkedIn: "https://www.linkedin.com/in/sayan-bose-82a678285"
+  },
+  {
+    team: "Analyst",
+    name: "Jilla Vishwas",
+    image: "/members/photos 1/Jilla Vishwas.jpg",
+    description: "AI-driven financial insights enthusiast.",
+    linkedIn: "https://www.linkedin.com/in/sayan-bose-82a678285"
+  },
+  {
+    team: "Analyst",
+    name: "Kago Challo",
+    image: "/members/photos 1/Sayan Bose.jpg",
+    description: "A man is all about GUTS!",
+    linkedIn: "https://www.linkedin.com/in/kago-challo-b2858425a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    team: "Analyst",
+    name: "Diya Nelliparambil Lijoy",
+    image: "/members/photos 1/Diya.jpg",
+    description: "I'm passionate about personal finance and aim to achieve financial security in my life.",
+    linkedIn: "https://www.linkedin.com/in/diya-nelliparambil-lijoy?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    team: "Analyst",
+    name: "Denham Fernandes",
+    image: "/members/photos 1/denham.jpg",
+    description: "I wish the lows are higher",
+    linkedIn: "https://www.linkedin.com/in/denham-jules-fernandes-217756251/"
+  },
+  {
+    team: "Analyst",
+    name: "Bharathwaj S",
+    image: "/members/photos 1/Bharathwaj S.jpg",
+    description: "I'm excited about the dynamic nature of the industry and the opportunity to continuously learn and adapt to new market trends.",
+    linkedIn: "https://www.linkedin.com/in/sayan-bose-82a678285"
+  },
+  {
+    team: "Analyst",
+    name: "S Rakshana",
+    image: "/members/photos 1/S Rakshana.jpg",
+    description: "As a dedicated learner, I recognize finance as an indispensable aspect of life, fueling my passion for continuous growth in quantitative analysis.",
+    linkedIn: "https://www.linkedin.com/in/s-rakshana-82961b248"
+  },
+  {
+    team: "Analyst",
+    name: "P. Ari",
+    image: "/members/photos 1/Sayan Bose.jpg",
+    description: "I'm a financial researcher, who dives into the depths of academic journals, emerging with insights.",
+    linkedIn: "https://www.linkedin.com/in/p-ari-4769b1257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    team: "Analyst",
+    name: "Aditya Maurya",
+    image: "/members/photos 1/Sayan Bose.jpg",
+    description: "I'm a financial researcher, who dives into the depths of academic journals, emerging with insights.",
+    linkedIn: "https://www.linkedin.com/in/aditya-maurya-5b31a3263/"
+  },
+  {
+    team: "Analyst",
+    name: "Tavishi Naresh",
+    image: "/members/photos 1/Tavishi.jpg",
+    description: "I'm the 'Interest-ing' enthusiast who finds joy in finance",
+    linkedIn: "https://www.linkedin.com/in/tavishi-naresh-85086028b"
+  },
+  {
+    team: "Analyst",
+    name: "Mukesh",
+    image: "/members/photos 1/Sayan Bose.jpg",
+    description: "I'm genuinely excited about the world of finance and I'm always looking for ways to learn more about it.",
     linkedIn: ""
-  }
+  },
 ]
 const events = [
   // Guest lectures
