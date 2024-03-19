@@ -7,7 +7,6 @@ const Navbar = () => {
     <nav
       style={{
         display: "flex",
-        position: "fixed",
         justifyContent: "space-between",
         alignItems: "center",
         width: "100vw",
@@ -37,7 +36,9 @@ const Navbar = () => {
             marginLeft: "0px",
           }}
         >
-          <div className="nav-item">HOME</div>
+          <div className="nav-item">
+          <Link to="/">HOME</Link>
+          </div>
           <div className="nav-item">
             <Link to="/events">EVENTS</Link>
           </div>
@@ -45,7 +46,9 @@ const Navbar = () => {
           <div className="cursor-pointer">
             <Link to="/members">MEMBERS</Link>
           </div>
-          <div className="nav-item">BLOGS</div>
+          <div className="nav-item">
+            <Link to="/blogs">BLOGS</Link>
+            </div>
           <div className="nav-item">
             <a
               href="https://medium.com/@profnitt.club"

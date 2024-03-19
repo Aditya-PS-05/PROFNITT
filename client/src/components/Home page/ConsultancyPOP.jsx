@@ -38,6 +38,7 @@ function ConsultancyPOP() {
           <h4>Heading</h4>
           <p>
             Riya loves Ambareesh
+            ye batein batai nahi jaati
           </p>
         </Modal.Body>
         <Modal.Footer>
