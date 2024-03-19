@@ -446,68 +446,86 @@ const members = [
     linkedIn: ""
   },
 ]
+
 const events = [
   // Guest lectures
   {
+    name:"FinHunt",
+    image : "/images/Events/finhunt.png",
+    type: "Competition",
+    description: "The Exclusive Online Treasure Hunt Competition, FinHunt, was successfully organized for the second year. Participants had the opportunity to earn ₹1500 during their evening snack time by showcasing their basic finance knowledge. The event promised an adrenaline rush, requiring participants to don their suits and engage their thinking caps for an exciting and challenging experience. The hunt led participants on an enthralling journey towards a treasure chest filled with exciting prizes. FinHunt was a memorable event that combined finance knowledge with thrill and excitement.",
+    date: "31/07/2022"
+  },
+  {
+    name : "Insights Trading Championship",
+    type: "Competition",
+    image : "/images/Events/insights.png",
+    description: "Trading competition in collaboration with StockGro, providing students with an opportunity to trade in a real live Indian stock market simulation.",
+    date: "21/11/2023"
+  },
+  {
     name : "Careers in Finance in Collaboration with FinSchool",
     image : "/images/Events/carrer.png",
-    description : "If you were uncertain about your career path in Finance and sought insights into opportunities, you shouldn't have missed the exclusive Guest Lecture by ProfNITT in collaboration with FinSchool. The session delved into three pivotal roles in the Finance sector : Financial Management, Equity Research, and Investment Banking."
-
+    type: "GL",
+    description : "If you were uncertain about your career path in Finance and sought insights into opportunities, you shouldn't have missed the exclusive Guest Lecture by ProfNITT in collaboration with FinSchool. The session delved into three pivotal roles in the Finance sector : Financial Management, Equity Research, and Investment Banking.",
+    date: "21/07/2022"
   },
   {
-    name:"ProfNITT x Toastmasters",
+    name : "WorldQuant Brain Alphathon",
+    image : "/images/Events/worldQuant.png",
+    type: "Workshop",
+    description: "ProfNITT presented the WorldQuant BRAIN Alphathon—a dynamic journey into quantitative finance. The 2-hour workshop on September 2nd at A2 Hall, led by industry experts Yash Zanwar and Aditya Chaturvedi, explored predictive financial models",
+    date: "02/09/2023",
+  },
+  {
+    name : "INHOTTS: DecisionQuest - A financial Journey",
+    type: "Competition",
+    image : "/images/Events/cif.png",
+    description: "Participants were challenged to make financial decisions mirroring the choices people face throughout their lifetime. Each decision was associated with a specific age or life stage, and participants had to weigh the benefits and consequences of their choices. The competition also included a 'Happiness Index' to measure the participants' overall happiness and satisfaction based on their decisions.",
+    date: "25/11/2023"
+  },
+  {
+    name : "ProfNITT x Toastmasters International",
+    type: "GL",
     image : "/images/Events/toast.png",
-    description: "ProfNITT, in collaboration with Toastmasters International, hosted a captivating guest lecture by DTM Ra. Ma. Palaniappan. The session was crafted to offer valuable insights into effective money management and making informed investment decisions."
-  },
-  {
-    name : "ProfNITT x Wagmi",
-    image : "/images/Events/wagmi.png",
-    description: "In a thought-provoking webinar hosted by ProfNITT and Wagmi, students seized the opportunity to delve into the dynamic realm of Web 3.0. Renowned guest speaker, Pankaj Gautam—an IIT Gandhinagar graduate and the current Head of Product at Mudrex—shared his expertise."
+    description: "Delving into the common concerns we all share about money—how to save, spend, and make it—ProfNITT, in collaboration with Toastmasters International, hosted a captivating guest lecture by DTM Ra. Ma. Palaniappan. The session was crafted to offer valuable insights into effective money management and making informed investment decisions.",
+    date: "05/11/2022"
   },
   {
     name : "Insights '22",
+    type: "GL",
     image : "/images/Events/insights.png",
-    description: "In a panel discussion, we delved into the debate between BNPL (Buy Now, Pay Later) and SNPL (Save Now, Purchase Later). The discussion explored many individuals' dilemma: whether to save money for future purchases or opt for the convenience of buying now and paying later."
+    description: "In a panel discussion, we delved into the debate between BNPL (Buy Now, Pay Later) and SNPL (Save Now, Purchase Later). The discussion explored many individuals' dilemma: whether to save money for future purchases or opt for the convenience of buying now and paying later. Attendees gained valuable insights from two experts representing the top startups in this field, offering a deeper understanding of the concepts and aiding individuals in making informed choices about their financial decisions.",
+    date: "06/11/2022"
   },
-  // Competitions
   {
-    name : "FinHunt!",
-    image : "/images/Events/finhunt.png",
-    description: "The event promised an adrenaline rush, requiring participants to don their suits and engage their thinking caps for an exciting and challenging experience. The hunt led participants on an enthralling journey towards a treasure chest filled with exciting prizes. FinHunt was a memorable event that combined finance knowledge with thrill and excitement."
+    name : "ProfNITT x Wagmi",
+    type: "GL",
+    image : "/images/Events/wagmi.png",
+    description: "In a thought-provoking webinar hosted by ProfNITT and Wagmi, students seized the opportunity to delve into the dynamic realm of Web 3.0. Renowned guest speaker, Pankaj Gautam—an IIT Gandhinagar graduate and the current Head of Product at Mudrex—shared his expertise. With a notable career that includes key roles at Paytm, WebEngage, and OYO, he brought a wealth of experience to the virtual stage. Attendees gained invaluable insights into the Web 3.0 landscape and its future, drawing from Pankaj Gautams diverse professional journey that began with Fluttr, a context-based community network similar to Twitter.",
+    date: "26/12/2022"
   },
   {
     name : "BizQuiz - MingOut",
-    image : "/images/Events/mingout.jpeg.png",
-    description: "The Watanabe BizQuiz Fest, powered by Mingout, offered an incredible opportunity for participants to win ₹20,000 directly. Enthusiasts were encouraged to don their suits and thinking hats, immersing themselves in the captivating world of business, personal finance, trading, and the stock market through the quiz."
+    type: "Competition",
+    image : "/images/Events/mingout.jpeg",
+    description: "The Watanabe BizQuiz Fest, powered by Mingout, offered an incredible opportunity for participants to win ₹20,000 directly. Enthusiasts were encouraged to don their suits and thinking hats, immersing themselves in the captivating world of business, personal finance, trading, and the stock market through the quiz.",
+    date: "4/02/2023"
   },
   {
     name : "IPL-Mania",
+    type: "Competition",
     image : "/images/Events/ipl.jpg",
-    description: "The challenge offered an opportunity to test cricket knowledge and strategy while providing a chance to win exciting prizes. Essentially, it was an In-House Dream11, allowing enthusiasts to showcase their cricket expertise in a thrilling and rewarding competition."
-  },
- 
-  {
-    name : "DecisionQuest",
-    image : "/images/Events/qst.png",
-    description: "Participants were challenged to make financial decisions mirroring the choices people face throughout their lifetime. Each decision was associated with a specific age or life stage, and participants had to weigh the benefits and consequences of their choices."
+    description: "Participants were invited to gear up for the ultimate cricket battle with the IPL-mania! The challenge offered an opportunity to test cricket knowledge and strategy while providing a chance to win exciting prizes. Essentially, it was an In-House Dream11, allowing enthusiasts to showcase their cricket expertise in a thrilling and rewarding competition.",
+    date: "4/02/2023"
   },
   {
-    name : "Trading Championship",
-    image : "/images/Events/cif.png",
-    description: "Trading competition in collaboration with StockGro, providing students with an opportunity to trade in a real live Indian stock market simulation."
+    name : "INHOTTS: Money+Money=Big Money",
+    image : "/images/Events/money.jpg",
+    type: "Workshop",
+    description: "The workshop titled 'Money+Money=Big Money' was conducted by club members, offering insights into the Indian Stock Market. Participants delved into technical and fundamental analysis, learning to identify ideal stocks for their portfolios. The workshop, lasting for 3 hours, witnessed active participation from 90 students.",
+    date: "16/11/2023"
   },
-  // Workshops
-
-   {
-    name : "Brain Alphathon",
-    image : "/images/Events/worldQuantt.png",
-    description: "ProfNITT presented the WorldQuant BRAIN Alphathon—a dynamic journey into quantitative finance. The workshop was led by industry experts Yash Zanwar and Aditya Chaturvedi."
-  },
-  {
-    name : "Big Money",
-    image : "/images/Events/money.png",
-    description: "The workshop titled 'Money+Money=Big Money' was conducted by club members, offering insights into the Indian Stock Market. Participants delved into technical and fundamental analysis, learning to identify ideal stocks for their portfolios."
-  }
 ]
 
 export {experiences, testimonials, abouts, blogs, members, events}
