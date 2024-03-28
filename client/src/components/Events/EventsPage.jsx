@@ -4,7 +4,6 @@ import Card from "./Card.jsx";
 import { events } from "../../constants/index.js";
 
 const EventsPage = () => {
-<<<<<<< HEAD
   const [boundaryHeight, setBoundaryHeight] = useState('auto');
 
   useEffect(() => {
@@ -18,8 +17,6 @@ const EventsPage = () => {
 
 
   
-=======
->>>>>>> d015c574337af0dddb11eca9be7c525c177c7c6f
   return (
     <div className="text-white">
       <Navbar />

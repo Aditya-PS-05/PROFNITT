@@ -37,8 +37,7 @@ function ConsultancyPOP() {
         <Modal.Body>
           <h4>Heading</h4>
           <p>
-            Riya loves Ambareesh
-            ye batein batai nahi jaati
+            Welcome to Profnitt
           </p>
         </Modal.Body>
         <Modal.Footer>
