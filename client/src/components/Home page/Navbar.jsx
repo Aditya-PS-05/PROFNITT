@@ -49,15 +49,6 @@ const Navbar = () => {
           <div className="nav-item">
             <Link to="/blogs">BLOGS</Link>
             </div>
-          <div className="nav-item">
-            <a
-              href="https://medium.com/@profnitt.club"
-              target="blank_"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              ARTICLES
-            </a>
-          </div>
           <ConsultancyPOP />
         </div>
         <div className="md:hidden relative inline-block" id="dropdown">
