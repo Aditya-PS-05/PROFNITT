@@ -12,9 +12,9 @@ const EventsPage = () => {
           <h1 className="text-6xl font-bold text-center mb-12 font-clashDisplay">
             Events
           </h1>
-          <div className="grid grid-flow-row grid-cols-3 gap-8">
-            {events.map((event) => (
-              <Card key={event.id} event={event} />
+          <div className="grid grid-flow-cols grid-cols-3 gap-8">
+            {events.map((event, index) => (
+              <Card key={index} event={event} />
             ))}
           </div>
         </div>

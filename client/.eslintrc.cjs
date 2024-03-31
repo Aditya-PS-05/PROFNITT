@@ -17,6 +17,12 @@ module.exports = {
       { allowConstantExport: true },
     ],
     'react/prop-types': 'off',
-    "unused-imports/no-unused-imports": "error"
+    "unused-imports/no-unused-imports": "error",
+      test: /\.(webp)$/,
+      use: [
+        {
+          loader: 'file-loader',
+        },
+      ],
   },
 }

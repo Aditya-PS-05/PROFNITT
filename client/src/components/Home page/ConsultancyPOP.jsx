@@ -32,13 +32,12 @@ function ConsultancyPOP() {
 
       <Modal show={showModal} onHide={handleCloseModal} centered>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Contact Details</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <h4>Heading</h4>
           <p>
-            Riya loves Ambareesh
-            ye batein batai nahi jaati
+            Email: <span>111122005@nitt.edu</span>
+            Mobile Number: <span>6386202355</span>
           </p>
         </Modal.Body>
         <Modal.Footer>

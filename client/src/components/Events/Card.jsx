@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ event }) => {
   return (
-    <div className="relative flex flex-col mt-6 text-gray-700 shadow-md bg-clip-border rounded-xl bg-gray-100">
+    <div className="flex w-[400px] flex-col mt-6 text-gray-700 shadow-md bg-clip-border rounded-xl bg-gray-100">
       <div className="w-full">
         <img src={event.image} alt="card-image" className="w-full h-full rounded-t-xl" />
       </div>

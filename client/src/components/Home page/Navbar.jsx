@@ -42,12 +42,17 @@ const Navbar = () => {
           <div className="nav-item">
             <Link to="/events">EVENTS</Link>
           </div>
-          <div className="nav-item">PROJECTS</div>
+          <div className="nav-item">
+          <Link to="/projects">PROJECTS</Link>
+            </div>
           <div className="cursor-pointer">
             <Link to="/members">MEMBERS</Link>
           </div>
           <div className="nav-item">
             <Link to="/blogs">BLOGS</Link>
+            </div>
+          <div className="nav-item">
+            <Link to="/gallery">GALLERY</Link>
             </div>
           <ConsultancyPOP />
         </div>
