@@ -4,6 +4,19 @@ import Card from "./Card.jsx";
 import { events } from "../../constants/index.js";
 
 const EventsPage = () => {
+  const [boundaryHeight, setBoundaryHeight] = useState('auto');
+
+  useEffect(() => {
+    const boundaryContent = document.getElementById('boundary-content');
+    if (boundaryContent) {
+      const contentHeight = boundaryContent.clientHeight;
+      // Add some extra space to avoid overflow
+      setBoundaryHeight(contentHeight + 100 + 'px');
+    }
+  }, []);
+
+
+  
   return (
     <div className="text-white">
       <Navbar />
