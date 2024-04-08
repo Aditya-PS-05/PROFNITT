@@ -42,7 +42,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-[90%] h-full mx-auto flex-grow flex justify-evenly items-center mt-10  z-[2000000]">
+      {/* <div className="w-[90%] h-full mx-auto flex-grow flex justify-evenly items-center mt-10  z-[2000000]">
         <div className="w-full h-full ">
           <div>
             <motion.div variants={textVariant()}>
@@ -60,7 +60,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -7,6 +7,8 @@ import EventsPage from './components/Events/EventsPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import BlogsPage from './components/Blogs/BlogsPage';
+import Projects from './components/Projects/Projects';
+import Gallery from './components/Gallery/Gallery';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -42,6 +44,8 @@ function App() {
               <Route exact path="/members" element={<MembersPage />} />
               <Route exact path="/events" element={<EventsPage />} />
               <Route exact path='/blogs' element={<BlogsPage />}/>
+              <Route exact path='/projects' element={<Projects />}/>
+              <Route exact path='/gallery' element={<Gallery />}/>
             </Routes>
           </div>
         </BrowserRouter>

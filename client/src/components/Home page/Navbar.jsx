@@ -42,7 +42,9 @@ const Navbar = () => {
           <div className="nav-item">
             <Link to="/events">EVENTS</Link>
           </div>
-          <div className="nav-item">PROJECTS</div>
+          <div className="nav-item">
+          <Link to="/projects">PROJECTS</Link>
+            </div>
           <div className="cursor-pointer">
             <Link to="/members">MEMBERS</Link>
           </div>
@@ -50,14 +52,8 @@ const Navbar = () => {
             <Link to="/blogs">BLOGS</Link>
             </div>
           <div className="nav-item">
-            <a
-              href="https://medium.com/@profnitt.club"
-              target="blank_"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              ARTICLES
-            </a>
-          </div>
+            <Link to="/gallery">GALLERY</Link>
+            </div>
           <ConsultancyPOP />
         </div>
         <div className="md:hidden relative inline-block" id="dropdown">

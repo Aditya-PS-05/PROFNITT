@@ -12,7 +12,7 @@ const BlogsPage = () => {
         <h1 className={`${styles.sectionHeadText} m-2 `}>Blogs Page</h1>
         <p className='font-extralight opacity-80 m-2 mx-auto w-[80%]'>Welcome to ProfNITT&apos;s blog page! Here, we share insightful articles, tips, and news about ProfNITT. Our aim is to provide valuable information and resources to our readers, helping them stay informed and inspired.</p>
       </div>
-      <div className='md:grid grid-cols-4 grid-flow-row items-center m-5 justify-evenly h-[80%] text-white w-[90%] mx-auto'>
+      <div className='md:grid grid-cols-3 grid-flow-row items-center m-5 justify-evenly h-[80%] text-white w-[90%] mx-auto'>
         {blogs.map((blog, index) => (
           <BlogsCard key={index} {...blog} />
         ))}
