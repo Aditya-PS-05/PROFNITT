@@ -1,5 +1,5 @@
 import BlogsCard from './BlogsCard';
-import Navbar from '../Home page/Navbar'
+import Navbar from '../Home/Navbar'
 import Footer from '../footer/Footer'
 import { styles } from "../../styles";
 import { blogs } from '../../constants';

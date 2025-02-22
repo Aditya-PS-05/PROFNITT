@@ -1,4 +1,4 @@
-import Navbar from "../Home page/Navbar.jsx";
+import Navbar from "../Home/Navbar.jsx";
 import Footer from "../footer/Footer.jsx";
 import Card from "./Card.jsx";
 import { events } from "../../constants/index.js";

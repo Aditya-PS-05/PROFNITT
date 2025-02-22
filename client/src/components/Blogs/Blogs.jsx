@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { blogs } from "../../constants";
-import ConsultancyPOP from "../Home page/ConsultancyPOP";
+import ConsultancyPOP from "../Home/ConsultancyPOP";
 import BlogsCard from "./BlogsCard";
 
 const Blogs = () => {

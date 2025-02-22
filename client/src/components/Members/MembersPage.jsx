@@ -1,5 +1,5 @@
 import MemberCard from "./MemberCard";
-import Navbar from '../Home page/Navbar.jsx';
+import Navbar from '../Home/Navbar.jsx';
 import Footer from '../footer/Footer.jsx';
 import { members } from "../../constants";
 import { useState } from "react";

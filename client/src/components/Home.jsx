@@ -1,5 +1,5 @@
-import Navbar from "./Home page/Navbar";
-import Main from "./Home page/Main";
+import Navbar from "./Home/Navbar";
+import Main from "./Home/Main";
 import About from "./About/About";
 import Events from "./Events/Events";
 import Blogs from "./Blogs/Blogs";

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Home page/Navbar'
+import Navbar from '../Home/Navbar'
 import ProjectCard from './ProjectCard'
 import { projects } from "../../constants";
 
