@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import ConsultancyPOP from "./ConsultancyPOP";
+import Button from "react-bootstrap/esm/Button";
+import './Navbar.css';
 
 const Navbar = () => {
 
@@ -12,20 +13,23 @@ const Navbar = () => {
         width: "100vw",
         height: "100px",
         fontFamily: "DMSans, sans-serif",
-        // border: "2px solid red",
         backgroundColor: "#080b2d",
         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
         zIndex: 9999,
       }}
     >
       <div className="flex-1 flex items-center justify-evenly h-full">
+
         <div className="w-[150px] ml-10">
+        <Link to="/">
           <img
-            src="/images/logo.png"
-            alt="Logo"
-            className="logo"
-            style={{ border: "none" }}
-          />
+              src="/images/logo.png"
+              alt="Logo"
+              className="logo"
+              style={{ border: "none" }}
+            />
+        </Link>
+          
         </div>
 
         <div
@@ -36,9 +40,6 @@ const Navbar = () => {
             marginLeft: "0px",
           }}
         >
-          <div className="nav-item">
-          <Link to="/">HOME</Link>
-          </div>
           <div className="nav-item">
             <Link to="/events">EVENTS</Link>
           </div>
@@ -54,7 +55,22 @@ const Navbar = () => {
           <div className="nav-item">
             <Link to="/gallery">GALLERY</Link>
             </div>
-          <ConsultancyPOP />
+          <Link to="https://tools.profnitt.in ">
+          <Button
+            variant="primary"
+            className="pop-button-animation"
+            style={{
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: 400,
+              fontSize: "0.9rem",
+              borderRadius: "35px",
+              backgroundColor: "#0328EE",
+              color: "white",
+            }}
+          >
+            ProfNITT Tools
+          </Button>
+          </Link>
         </div>
         <div className="md:hidden relative inline-block" id="dropdown">
           <img src="/images/HamburgerMenu.svg" alt="HamburgerMenu"id="dropbtn"/>

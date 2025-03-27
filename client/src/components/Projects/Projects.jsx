@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Home/Navbar'
 import ProjectCard from './ProjectCard'
 import { projects } from "../../constants";
+import Footer from '../footer/Footer';
 
 const Projects = () => {
   return (
@@ -18,6 +19,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div> 
   )
 }

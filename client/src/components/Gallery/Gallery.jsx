@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import Navbar from '../Home/Navbar';
+import Footer from '../footer/Footer';
 
 function Gallery() {
   const initialImages = ['/images/gallery/gallery2.jpg', '/images/gallery/gallery7.jpg', '/images/gallery/gallery4.jpg', '/images/gallery/gallery6.jpg', '/images/2 (1).jpg', '/images/3 (1).jpg'];
@@ -36,6 +38,7 @@ function Gallery() {
 
   return (
     <div className='h-screen w-screen text-white'>
+      <Navbar />
       <div className='m-4'>
         <h1 className='text-6xl font-clashDisplay text-center'>Gallery</h1>
         <div className="grid grid-cols-3 gap-4 my-4 mx-auto w-[70%] h-[30%] overflow-hidden ">
@@ -66,6 +69,7 @@ function Gallery() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

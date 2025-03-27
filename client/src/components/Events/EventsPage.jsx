@@ -17,8 +17,6 @@ const EventsPage = () => {
       setBoundaryHeight(contentHeight + 100 + 'px');
     }
   }, []);
-
-
   
   return (
     <div className="text-white">
@@ -35,6 +33,7 @@ const EventsPage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
