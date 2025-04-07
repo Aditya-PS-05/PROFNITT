@@ -20,7 +20,7 @@ const Events = () => {
               View All Events
             </button>
           </Link>
-        </div>
+        </div> 
       </div>
       <div className="grid grid-flow-row auto-rows-fr gap-4 mx-auto justify-center"
         style={{ gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", maxWidth: "1000px" }}>
