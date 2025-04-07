@@ -1,52 +1,3 @@
-// import { useState } from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-
-// const MemberCard = ({ Name, Image, Domain, Position, "LinkedIn ID": linkedIn, Tagline }) => {
-//   const [hovered, setHovered] = useState(false);
-
-//   return (
-//     <div
-//       className="h-[300px] w-[270px] box-content bg-[#010D50] rounded-[10px] mt-10 border-none m-4 relative grid-item"
-//       onMouseEnter={() => setHovered(true)}
-//       onMouseLeave={() => setHovered(false)}
-//     >
-//       <div className="w-full h-full absolute flex flex-col">
-//         <div
-//           className={`w-full bg-[#C4C4C4] rounded-t-[10px] h-[${
-//             hovered ? "0" : "90%"
-//           }] transition-all ease-in-out duration-300 overflow-hidden`}
-//           style={{ opacity: hovered ? "0.3" : "1", transition: "opacity 0.3s ease-in-out" }}
-//         >
-//           <img
-//             src={Image}
-//             alt={Name}
-//             className="w-full h-full object-cover rounded-[10px] border-none"
-//           />
-//         </div>
-//         <div
-//           className={`w-full flex justify-center items-center rounded-[10px] mt-2 ${
-//             hovered ? "absolute" : ""
-//           }`}
-//           style={{ height: hovered ? "50%" : "0", transition: "height 0.3s ease-in-out" }}
-//         >
-//           <div className="w-full text-center m-auto">
-//             <h1 className="text-[20px] text-center text-white">{Name}</h1>
-//             <p className="text-gray-300 text-center">{Position} - {Domain}</p>
-//             <p className={`text-white text-center ${hovered ? "block" : "hidden"} mt-4`}>{Tagline}</p>
-//             <div className={`flex justify-evenly items-center mt-4 ${hovered ? "block" : "hidden"}`}>
-//               <a href={linkedIn} target="_blank" rel="noopener noreferrer">
-//                 <FontAwesomeIcon icon={faLinkedin} size="2x" className="hover:cursor-pointer" />
-//               </a>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default MemberCard;
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -55,7 +6,6 @@ const MemberCard = ({ Name, Image, Domain, Position, "LinkedIn ID": linkedIn, Ta
   const [hovered, setHovered] = useState(false);
   const [imageError, setImageError] = useState(false);
   
-  // Generate a unique color for each member as a fallback
   const generateBackgroundColor = (name) => {
     let hash = 0;
     for (let i = 0; i < name.length; i++) {
@@ -77,58 +27,44 @@ const MemberCard = ({ Name, Image, Domain, Position, "LinkedIn ID": linkedIn, Ta
 
   return (
     <div
-      className="h-[300px] w-[270px] box-content bg-[#010D50] rounded-[10px] mt-10 border-none m-4 relative grid-item"
+      className="h-[300px] w-[270px] bg-[#010D50] rounded-[10px] mt-10 m-4 relative overflow-hidden shadow-lg"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <div className="w-full h-full absolute flex flex-col">
-        <div
-          className={`w-full rounded-t-[10px] h-[${
-            hovered ? "0" : "90%"
-          }] transition-all ease-in-out duration-300 overflow-hidden`}
-          style={{ opacity: hovered ? "0.3" : "1", transition: "opacity 0.3s ease-in-out" }}
+      {/* Image or fallback */}
+      {imageError ? (
+        <div 
+          style={{ backgroundColor }}
+          className="h-[260px] flex items-center justify-center text-white text-5xl font-bold rounded-t-[10px]"
         >
-          {imageError ? (
-            <div 
-              style={{ 
-                backgroundColor: backgroundColor,
-                height: '100%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: 'white',
-                fontSize: '2.5rem',
-                fontWeight: 'bold'
-              }}
-              className="rounded-t-[10px]"
-            >
-              {initials}
-            </div>
-          ) : (
-            <img
-              src={`/members/${Image}`}
-              alt={Name}
-              className="w-full h-full object-cover rounded-t-[10px] border-none"
-              onError={() => setImageError(true)}
-            />
-          )}
+          {initials}
         </div>
-        <div
-          className={`w-full flex justify-center items-center rounded-[10px] mt-2 ${
-            hovered ? "absolute" : ""
-          }`}
-          style={{ height: hovered ? "50%" : "0", transition: "height 0.3s ease-in-out" }}
-        >
-          <div className="w-full text-center m-auto">
-            <h1 className="text-[20px] text-center text-white">{Name}</h1>
-            <p className="text-gray-300 text-center">{Position} - {Domain}</p>
-            <p className={`text-white text-center ${hovered ? "block" : "hidden"} mt-4`}>{Tagline}</p>
-            <div className={`flex justify-evenly items-center mt-4 ${hovered ? "block" : "hidden"}`}>
-              <a href={linkedIn} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} size="2x" className="hover:cursor-pointer" />
-              </a>
-            </div>
-          </div>
+      ) : (
+        <img
+          src={`/members/${Image}`}
+          alt={Name}
+          className="h-[260px] w-full object-cover rounded-t-[10px]"
+          onError={() => setImageError(true)}
+        />
+      )}
+
+      {/* Bottom static info */}
+      <div className="px-2 py-1 bg-[#010D50] text-center z-10">
+        <h1 className="text-[16px] text-white font-semibold leading-tight">{Name}</h1>
+        <p className="text-[12px] text-gray-300 leading-none">{Position} - {Domain}</p>
+      </div>
+
+      {/* Hover overlay */}
+      <div
+        className={`absolute inset-0 bg-[#010D50]/90 text-white flex flex-col justify-center items-center rounded-[10px] transition-opacity duration-300 ease-in-out ${
+          hovered ? "opacity-100" : "opacity-0 pointer-events-none"
+        }`}
+      >
+        <p className="text-white text-center mt-4 px-4 text-sm">{Tagline}</p>
+        <div className="mt-4">
+          <a href={linkedIn} target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} size="2x" className="hover:cursor-pointer" />
+          </a>
         </div>
       </div>
     </div>

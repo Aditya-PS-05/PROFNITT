@@ -50,13 +50,15 @@ const MembersPage = () => {
                 </button>
               </div>
           </div>
-          <div className="w-full flex justify-center">
-            <div className="grid grid-cols-4 grid-flow-row">
+          <div className="w-full flex justify-center items-center">
+            <div className="grid grid-flow-row auto-rows-fr gap-4 mx-auto justify-center"
+        style={{ gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", maxWidth: "1000px" }}>
+
               {filteredMembers.map((member, index) => (
                 <MemberCard key={index} {...member} />
               ))}
             </div>
-        </div>
+          </div>
         <Footer />
       </div>
      </div>

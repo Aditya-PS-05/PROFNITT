@@ -1,19 +1,32 @@
-import EventCard from "./EventCard";
 import { Link } from "react-router-dom";
-import { styles } from "../../styles";
+import { events } from "../../constants/index.js";
+import Card from "./Card";
+
 const Events = () => {
   return (
-    <div className="w-[90%] p-5 mt-10 z-[1000] relative m-auto">
-      <div className="h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-[0%] right-[50%] z-0 shadow-2xl shadow-[#010725] blur-[150px]" />
-      <div className="flex z-[2000000] relative">
-        <h1 className={`text-[50px] ${styles.sectionHeadText}`}>
-          <Link to="/events">Our Events</Link>
+    <div className="w-screen mt-10">
+      <div className="md:flex justify-between items-center">
+        <h1
+          className="text-[50px] md:ml-[110px] font-clashDisplay"
+          style={{ color: "#57E2E5" }}
+        >
+          Browse our latest Events
         </h1>
+        <div className="right-10 absolute text-center font-DMSans md:mt-0">
+          <Link to="/events">
+            <button
+              className="bg-[#0328EE] border-none p-2 rounded-[35px] font-[400]"
+            >
+              View All Events
+            </button>
+          </Link>
+        </div>
       </div>
-      <div className="md:flex z-[2000000] w-full md:gap-[30px] md:m-0">
-        <EventCard />
-        <EventCard />
-        <EventCard />
+      <div className="grid grid-flow-row auto-rows-fr gap-4 mx-auto justify-center"
+        style={{ gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", maxWidth: "1000px" }}>
+        {events.slice(0, 2).map((event, index) => (
+          <Card key={index} event={event} />
+        ))}
       </div>
     </div>
   );

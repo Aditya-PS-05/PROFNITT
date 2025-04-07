@@ -234,7 +234,7 @@ const members = [
     "Position": "Core",
     "LinkedIn ID": "http://linkedin.com/in/ritu-raj-7b771549",
     "Mail ID": "rituraj.takshila@gmail.com",
-    "Image": "https://drive.google.com/file/d/13AyCRyEBEId01S34QIR130g6bveWvc8F/view?usp=share_link",
+    "Image": "Ritu Raj.jpg",
     "Tagline": "True trading success is mastering money!!!!",
   },
   {
@@ -243,7 +243,7 @@ const members = [
     "Position": "Core",
     "LinkedIn ID": "linkedin.com/in/amit-singh-bbb7a1222",
     "Mail ID": "amitsingh.nitt@gmail.com",
-    "Image": "Amit.jpg",
+    "Image": "Amit Singh.jpg",
     "Tagline": "Traders don't have Plan-B",
   },
   {
@@ -261,7 +261,7 @@ const members = [
     "Position": "Coordinator",
     "LinkedIn ID": "kanishk v",
     "Mail ID": "vkanishk2006@gmail.com",
-    "Image": "kanish v.jpg",
+    "Image": "Kanishk v.jpg",
     "Tagline": "Where Vision Meets Vogue",
   },
   {
@@ -315,7 +315,7 @@ const members = [
     "Position": "Coordinator",
     "LinkedIn ID": "www.linkedin.com/in/aman-surana-a8928a236",
     "Mail ID": "amansurana5454@gmail.com",
-    "Image": "https://drive.google.com/open?id=19PpRsk0FwSGDoNddnh0puW4iG_jXfYge",
+    "Image": "Aman Surana.jpg",
     "Tagline": "Relentlessly Resourceful",
   },
   {
@@ -324,7 +324,7 @@ const members = [
     "Position": "Coordinator",
     "LinkedIn ID": "Gopika A",
     "Mail ID": "gopikaannadurai74@gmail.com",
-    "Image": "Gopika A.jpg",
+    "Image": "Gopika A.jpeg",
     "Tagline": "Turning coffee into charts and charts into stress!!",
   },
   {
@@ -387,7 +387,7 @@ const members = [
     "Position": "Manager",
     "LinkedIn ID": "gunesh-madhavan-10a0a11aa",
     "Mail ID": "guneshmadhavan@gmail.com",
-    "Image": "Gunesh Madhavan.jpg",
+    "Image": "Gunesh Madhavan.jpeg",
     "Tagline": " \"Complexity Attracts, Simplicity Wins.\"",
   },
   {
@@ -396,7 +396,7 @@ const members = [
     "Position": "Manager",
     "LinkedIn ID": "https://www.linkedin.com/in/bharathwaj-srinivasan-2b17a6236",
     "Mail ID": "bharath2452004@gmail.com",
-    "Image": "Bharathwaj S.jpg",
+    "Image": "Bharath Srinivasan.jpg",
     "Tagline": "Making Money is my full-time job",
   },
   {
@@ -415,7 +415,7 @@ const members = [
     "Position": "Manager",
     "LinkedIn ID": "https://www.linkedin.com/in/mahendra-singh-b53362285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "Mail ID": "vinodshekhawat9630@gmail.com",
-    "Image": "Mahendra Singh.jpg",
+    "Image": "Mahendra S.jpg",
     "Tagline": "My financial advice? Don’t take my financial advice.",
   },
   {
@@ -424,7 +424,7 @@ const members = [
     "Position": "Manager",
     "LinkedIn ID": "https://www.linkedin.com/in/om-gavkhadkar-67608b253",
     "Mail ID": "omgavkhadkar369@gmail.com",
-    "Image": "Om Gavkhadkar.jpg",
+    "Image": "Om Gavkhadkar.jpeg",
     "Tagline": "Decoding market crafting profits ",
   },
   {
@@ -433,7 +433,7 @@ const members = [
     "Position": "Manager",
     "LinkedIn ID": "https://www.linkedin.com/in/adarsh-dukare-693ab025b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "Mail ID": "aadarshdukare101@gmail.com",
-    "Image": "Adarsh Bhaskar Dukare.jpg",
+    "Image": "Adarsh Dukare.jpg",
     "Tagline": "In a world of red and green candles, emotions can sting; but I'm the artist of trading, mastering my swing.",
     
   },
@@ -471,7 +471,7 @@ const members = [
     "Position": "Coordinator",
     "LinkedIn ID": "https://www.linkedin.com/in/divyansh-agrawal-4a806a2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "Mail ID": "divyanshkumaragrawal80@gmail.com",
-    "Image": "Divyansh Kumar Agrawal.jpg",
+    "Image": "Divyansh Agrawal.jpg",
     "Tagline": "Divvy Dollars",
   },
   {
@@ -480,9 +480,8 @@ const members = [
     "Position": "Coordinator",
     "LinkedIn ID": "https://www.linkedin.com/in/ujjwal-sinha-35177b290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "Mail ID": "ujjwalyash31@gmail.com",
-    "Image": "Ujjwal Sinha.jpg",
+    "Image": "Ujjwal Sinha.png",
     "Tagline": "Harnessing data's power in quiet determination ",
-     
   },
   {
     "Name": "Amey Munmane ",
@@ -510,7 +509,7 @@ const members = [
     "Position": "Coordinator",
     "LinkedIn ID": "https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BQRPZf9SMSImRcPCC1gBWtw%3D%3D",
     "Mail ID": "harihan345@gmail.com",
-    "Image": "Hariharan V.jpg",
+    "Image": "Hari Haran.jpg",
     "Tagline": "\"Quant - Where strategy meets statistics in the trading game.\"",
   },
   {
@@ -519,7 +518,7 @@ const members = [
     "Position": "Manager",
     "LinkedIn ID": "https://www.linkedin.com/in/denham-jules-fernandes-217756251/",
     "Mail ID": "denhamferns@gmail.com",
-    "Image": "Denham Fernandes.jpg",
+    "Image": "Denham Fernandes.jpeg",
     "Tagline": "higher lows",
   },
   {
@@ -555,7 +554,7 @@ const members = [
     "Position": "Manager",
     "LinkedIn ID": "https://www.linkedin.com/in/diya-nelliparambil-lijoy/",
     "Mail ID": "diyanlijoy@gmail.com",
-    "Image": "Diya Nelliparambil Lijoy.jpg",
+    "Image": "Diya Nelliparambil.jpg",
     "Tagline": "Depression when its recession",
 },
 {

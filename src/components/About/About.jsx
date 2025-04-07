@@ -16,16 +16,16 @@ const About = () => {
     <div className="flex flex-col  w-full z-[1000] relative mt-8">
       <div className="h-[550px] w-[550px] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900 to-[#010725] absolute bottom-[50%] right-[60%] z-0 shadow-2xl shadow-[#010725] blur-[150px] " />
       <div className="w-[90%] z-[2000000] m-auto">
-        <div className="p-4 text-center border-2 border-gray-500 md:w-[50%] mx-auto rounded-[10px]">
+        <div className="p-4 text-left md:w-[50%] rounded-[10px]">
           <motion.div variants={textVariant()}>
             <h2 className={`${styles.sectionHeadText}`}>About Us.</h2>
-            <p className="font-Poppins font-sans font-normal text-base md:text-lg lg:text-xl text-white text-center z-10 text-cyan-400">Want to know who we are?</p>
+            <p className="font-Poppins font-sans font-normal text-base md:text-lg lg:text-xl text-white z-1">Want to know who we are?</p>
 
               <br />
           </motion.div>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
-            className="font-Poppins font-sans font-normal text-base md:text-lg lg:text-xl text-white text-center z-10 "
+            className="font-Poppins font-sans font-normal text-base md:text-lg lg:text-xl text-white text-left z-10 "
           >
             ProfNITT is the official Finance and Investment club of NIT Tiruchirapalli.
             We are a close-knit community of finance enthusiasts from diverse
@@ -42,63 +42,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* <div className="w-[90%] h-full mx-auto flex-grow flex justify-evenly items-center mt-10  z-[2000000]">
-        <div className="w-full h-full ">
-          <div>
-            <motion.div variants={textVariant()}>
-              <p className={styles.sectionSubText}>
-                Whom We have worked so far?
-              </p>
-              <h2 className={styles.sectionHeadText}>Previous Companies</h2>
-            </motion.div>
-            <div className="mt-20 flex flex-col">
-              <VerticalTimeline>
-                {experiences.map((experience, index) => (
-                  <ExperienceCard key={index} experience={experience} />
-                ))}
-              </VerticalTimeline>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
-
-const ExperienceCard = ({ experience }) => (
-  <VerticalTimelineElement
-    contentStyle={{ background: "#1d1836", color: "#fff" }}
-    contentArrowStyle={{ borderRight: "7px solid #232631" }}
-    date={experience.date}
-    iconStyle={{ background: experience.iconBg }}
-    icon={
-      <div className="flex justify-center items-center w-full h-full">
-        <img
-          src={experience.icon}
-          alt={experience.company_name}
-          className="object-contain h-10 w-10"
-        />
-      </div>
-    }
-  >
-    <div>
-      <h3 className="text-white text-[24px] font-bold">
-        {experience.company_name}
-      </h3>
-    </div>
-
-    <ul className="mt-5 list-disc ml-5 space-y-2">
-      {experience.points.map((point, index) => (
-        <li
-          key={`experience-point-${index}`}
-          className="text-white-100 text-[14px] pl-1 tracking-wider"
-        >
-          {point}
-        </li>
-      ))}
-    </ul>
-  </VerticalTimelineElement>
-);
 
 const AboutsCard = ({ index, title, icon }) => {
   return (
